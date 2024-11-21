@@ -21,12 +21,14 @@ Check out the new items available:
 - Item Crate (can be crafted in Workbench)
 - Weapon Crate (can be crafted in Workbench)
 
-### 76 TCG Anime Cards
-- Waifu Binder to hold all the 76 cards
+### TCG Anime Cards
+- Waifu Binder to hold all the 76 Waifu Cards
 
 ### Secure Containers
 - Haven Secure Container (obtained through quests)
+    - 1x3, 1x3, 1x3, 1x3 slots.
 - Haven Theta Secure Container (obtained through quests)
+    - 2x3, 1x3, 1x3, 1x3 slots.
 
 ### New Metal Fuel Tanks
 - Red Fuel Tank
@@ -50,3 +52,20 @@ Check out the new items available:
 - Keycard Holder
 - 5 Keychains
 - Keybox that can hold the keychains and keycard holder above plus money.
+
+### Misc Items
+- C4 Explosive
+
+### Quests
+- The Deadweight Test
+- The Mole has our loot
+    - The Mole's Loot
+        - Cleaning out Dorms
+            - Cleaning out the Gas Station
+                - The Spacious Container
+- Level 5+
+    - Ammo bouta loose it - Part 1
+- Level 15+
+    - The Haven Collector
+- Level 20+ & Part 1 done
+    - Ammo bouta loose it - Part 2
