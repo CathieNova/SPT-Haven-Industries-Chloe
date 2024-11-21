@@ -32,15 +32,15 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 > ## Secure Containers:
 > ### Haven Secure Container: 
 > - Obtainable through quests.
-> ![Haven Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenSecureContainer.png "Haven Secure Container")
+> - ![Haven Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenSecureContainer.png "Haven Secure Container")
 > ### Haven Theta Secure Container
 > - Obtainable through quests.
-> ![Haven Theta Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenThetaSecureContainer.png "Haven Theta Secure Container")
+> - ![Haven Theta Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenThetaSecureContainer.png "Haven Theta Secure Container")
 
 > ## New Metal Fuel Tanks
-> - **Red Fuel Tank**
-> - **Blue Fuel Tank**
-> - **Green Fuel Tank**
+> - **Red Fuel Tank**: *100/100*
+> - **Blue Fuel Tank**: *100/100*
+> - **Green Fuel Tank**: *100/100*
 
 > ### Figurines
 > - **Eagle Figurine**
@@ -59,7 +59,7 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 > - **Keycard Holder**
 > - **5 Keychains**
 > - **Keybox**: Holds keychains, keycard holder, and money.
-![Keybox](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Keybox.png "Keybox")
+- ![Keybox](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Keybox.png "Keybox")
 
 > ### Misc Items
 > - **C4 Explosive**
@@ -83,5 +83,5 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 >     - **`Ammo bouta loose it - Part 2`**
 
 ## Showcase of all Items:
-PS: not showing the other 75 cards......
-![All Items](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Items Showcase.png "All Items")
+> PS: not showing the other 75 cards......
+- ![All Items](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Items Showcase.png "All Items")
