@@ -1,0 +1,244 @@
+{
+  "67349422cd684d52d835871a": {
+    "QuestName": "The Mole's Loot",
+    "_id": "67349422cd684d52d835871a",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_2.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "67349422cd684d52d835871a description",
+    "startedMessageText": "67349422cd684d52d835871a startedMessageText",
+    "successMessageText": "67349422cd684d52d835871a successMessageText",
+    "failMessageText": "67349422cd684d52d835871a failMessageText",
+    "acceptPlayerMessage": "67349422cd684d52d835871a acceptPlayerMessage",
+    "declinePlayerMessage": "67349422cd684d52d835871a declinePlayerMessage",
+    "completePlayerMessage": "67349422cd684d52d835871a completePlayerMessage",
+    "changeQuestMessageText": "67349422cd684d52d835871a changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "conditionType": "Quest",
+          "id": "67349422385ef83f33768d69",
+          "status": [
+            4
+          ],
+          "target": "6734916945defbd81ec2f677"
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "id": "6734922093a34af68a2c3a4f",
+          "index": 0,
+          "dynamicLocale": false,
+          "target": [
+            "5734779624597737e04bf329"
+          ],
+          "value": 3,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "67349236d677fac4f5f5d3d6",
+          "index": 1,
+          "dynamicLocale": false,
+          "target": [
+            "573477e124597737dd42e191"
+          ],
+          "value": 3,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "67349237c1d6e8aabc5d1d7a",
+          "index": 2,
+          "dynamicLocale": false,
+          "target": [
+            "57347c2e24597744902c94a1"
+          ],
+          "value": 3,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "673492373a7e1cbf1ad90e8d",
+          "index": 3,
+          "dynamicLocale": false,
+          "target": [
+            "57347baf24597738002c6178"
+          ],
+          "value": 1,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "673492384dbe5820eafff434",
+          "index": 4,
+          "dynamicLocale": false,
+          "target": [
+            "57347ca924597744596b4e71"
+          ],
+          "value": 1,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "67349238b365fb22b17c5b1e",
+          "index": 5,
+          "dynamicLocale": false,
+          "target": [
+            "590a386e86f77429692b27ab"
+          ],
+          "value": 4,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "67349239009208ac541c334f",
+          "index": 6,
+          "dynamicLocale": false,
+          "target": [
+            "59e36c6f86f774176c10a2a7"
+          ],
+          "value": 2,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "673492399d668ed414762f65",
+          "index": 7,
+          "dynamicLocale": false,
+          "target": [
+            "590a3b0486f7743954552bdb"
+          ],
+          "value": 4,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "6734923ab8ffd7d87f93c632",
+          "index": 8,
+          "dynamicLocale": false,
+          "target": [
+            "590c392f86f77444754deb29"
+          ],
+          "value": 1,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 9840,
+          "id": "67349422d4260f3a70082278",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.15,
+          "id": "67349422446e92d15267bd70",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "673494229511e7f62f06b173",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67349422b64bc34e8f5d1c63",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 31750
+              }
+            }
+          ],
+          "target": "67349422b64bc34e8f5d1c63",
+          "type": "Item",
+          "unknown": false,
+          "value": "31750"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67349422e17d3eba3cec00eb",
+          "index": 4,
+          "items": [
+            {
+              "_id": "673494225f500346782cb56a",
+              "_tpl": "57347c77245977448d35f6e2",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "673494225f500346782cb56a",
+          "type": "Item",
+          "unknown": false,
+          "value": "3"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67349422e231526666749639",
+          "index": 5,
+          "items": [
+            {
+              "_id": "67349422e4d191e68cdfa791",
+              "_tpl": "57347c5b245977448d35f6e1",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "67349422e4d191e68cdfa791",
+          "type": "Item",
+          "unknown": false,
+          "value": "3"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67349422fa977b98fe9419db",
+          "index": 6,
+          "items": [
+            {
+              "_id": "673494223a1b0b6ff627a509",
+              "_tpl": "5d1b392c86f77425243e98fe",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            }
+          ],
+          "target": "673494223a1b0b6ff627a509",
+          "type": "Item",
+          "unknown": false,
+          "value": "4"
+        }
+      ],
+      "Fail": [],
+      "Started": []
+    }
+  }
+}

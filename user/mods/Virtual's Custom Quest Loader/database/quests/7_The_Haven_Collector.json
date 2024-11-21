@@ -1,0 +1,216 @@
+{
+  "6737825b76f24ad5175da71d": {
+    "QuestName": "The Haven Collector",
+    "_id": "6737825b76f24ad5175da71d",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_9.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6737825b76f24ad5175da71d description",
+    "startedMessageText": "6737825b76f24ad5175da71d startedMessageText",
+    "successMessageText": "6737825b76f24ad5175da71d successMessageText",
+    "failMessageText": "6737825b76f24ad5175da71d failMessageText",
+    "acceptPlayerMessage": "6737825b76f24ad5175da71d acceptPlayerMessage",
+    "declinePlayerMessage": "6737825b76f24ad5175da71d declinePlayerMessage",
+    "completePlayerMessage": "6737825b76f24ad5175da71d completePlayerMessage",
+    "changeQuestMessageText": "6737825b76f24ad5175da71d changeQuestMessageText",
+    "name": "6737825b76f24ad5175da71d name",
+    "note": "6737825b76f24ad5175da71d note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0c2788c0348f9e2d278",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "6724378d8fa92a4f67a81ef9"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0c4fdbc1cc6e1300dae",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "67245578752f831970a68547"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0c6bf5f86a5160e72d6",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "67247b652a1a4420796f905c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0c860534da966ea3763",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "6724342b39b87789626bb48c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0c967b1bd74baacd010",
+          "index": 4,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "6724532f3c8a2fd412e5cb31"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0cb8f64d511d666bc7f",
+          "index": 5,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "67245563ca7fe82e04ece38b"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6738d0cf2894596da98475fe",
+          "index": 6,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "6724555ee6630e254a135769"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "id": "6738d0d32da1d8ce1c8b2361",
+          "value": 1
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 25000,
+          "id": "6738d0d503f3d75d3d118c4a",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.1,
+          "id": "6738d0d77d67a86df48e4df4",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6738d0dbf33f7c1933d9af93",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6738d0dd4d8ec4e44faf8e0c",
+              "_tpl": "673693960b2252842eaf903b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6738d0dd4d8ec4e44faf8e0c",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6738d0e07acda9bea8201653",
+          "index": 3,
+          "target": "Charisma",
+          "type": "Skill",
+          "unknown": true,
+          "value": 200
+        }
+      ]
+    }
+  }
+}

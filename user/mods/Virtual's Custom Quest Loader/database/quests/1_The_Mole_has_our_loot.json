@@ -1,0 +1,123 @@
+{
+  "6734916945defbd81ec2f677": {
+    "QuestName": "The Mole has our loot",
+    "_id": "6734916945defbd81ec2f677",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "Exploration",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6734916945defbd81ec2f677 description",
+    "startedMessageText": "6734916945defbd81ec2f677 startedMessageText",
+    "successMessageText": "6734916945defbd81ec2f677 successMessageText",
+    "failMessageText": "6734916945defbd81ec2f677 failMessageText",
+    "acceptPlayerMessage": "6734916945defbd81ec2f677 acceptPlayerMessage",
+    "declinePlayerMessage": "6734916945defbd81ec2f677 declinePlayerMessage",
+    "completePlayerMessage": "6734916945defbd81ec2f677 completePlayerMessage",
+    "changeQuestMessageText": "6734916945defbd81ec2f677 changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [],
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673490981288038854a45c98",
+          "index": 0,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "Saving_The_Mole"
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 5000,
+          "id": "673491690c1f9d4307905cd9",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.05,
+          "id": "6734916948a2daf152e4770b",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67349169bfd416b87617e1bf",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67349169adce7885b23a4ec1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 13020
+              }
+            }
+          ],
+          "target": "67349169adce7885b23a4ec1",
+          "type": "Item",
+          "unknown": false,
+          "value": "13020"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6734916902600f32a1de6c46",
+          "index": 3,
+          "items": [
+            {
+              "_id": "673491691ad393f559d903b2",
+              "_tpl": "62a09ee4cf4a99369e262453",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "673491691ad393f559d903b2",
+          "type": "Item",
+          "unknown": false,
+          "value": "1"
+        }
+      ],
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "673c12381bf377d3856e8a43",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67349169adcf99231783f7e4",
+              "_tpl": "5991b51486f77447b112d44f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67349169adcf99231783f7e4",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    }
+  }
+}

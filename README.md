@@ -17,8 +17,9 @@ Check out the new items available:
 - **Ammo Crate**: Store your ammo.
 - Haven IPAC (can becrafted in the Medstation)
 - Haven Secure Container (can be crafted in Lavatory)
-- Item Crate (can be crafted in Lavatory)
-- Weapon Crate (can be crafted in Lavatory)
+- Ammo Crate (can be crafted in Workbench)
+- Item Crate (can be crafted in Workbench)
+- Weapon Crate (can be crafted in Workbench)
 
 ### 76 TCG Anime Cards
 - Waifu Binder to hold all the 76 cards

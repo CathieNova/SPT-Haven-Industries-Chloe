@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "Cleaning_Out_Gas_Station",
+    "ZoneName": "Cleaning_Out_Gas_Station",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "407.5062",
+      "Y": "-0.3322362",
+      "Z": "26.09534",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.06975647",
+      "Z": "0",
+      "W": "0.9975641"
+    },
+    "Scale": {
+      "X": "92.5",
+      "Y": "20",
+      "Z": "72.25",
+      "W": "0"
+    }
+  }
+]

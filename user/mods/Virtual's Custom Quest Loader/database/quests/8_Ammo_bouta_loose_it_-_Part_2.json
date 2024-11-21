@@ -1,0 +1,184 @@
+{
+  "6737d4a368e31f47b40ba27e": {
+    "QuestName": "Ammo bouta loose it - Part 2",
+    "_id": "6737d4a368e31f47b40ba27e",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_6.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6737d4a368e31f47b40ba27e description",
+    "startedMessageText": "6737d4a368e31f47b40ba27e startedMessageText",
+    "successMessageText": "6737d4a368e31f47b40ba27e successMessageText",
+    "failMessageText": "6737d4a368e31f47b40ba27e failMessageText",
+    "acceptPlayerMessage": "6737d4a368e31f47b40ba27e acceptPlayerMessage",
+    "declinePlayerMessage": "6737d4a368e31f47b40ba27e declinePlayerMessage",
+    "completePlayerMessage": "6737d4a368e31f47b40ba27e completePlayerMessage",
+    "changeQuestMessageText": "6737d4a368e31f47b40ba27e changeQuestMessageText",
+    "name": "6737d4a368e31f47b40ba27e name",
+    "note": "6737d4a368e31f47b40ba27e note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6737c2af76699995f652dbfb",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5efb0cabfb3e451d70735af5",
+            "5efb0fc6aeb21837e749c801",
+            "5efb0d4f4bc50b58e81710f3",
+            "5e81f423763d9f754677bf2e",
+            "5ea2a8e200685063ec28c05a"
+          ],
+          "value": 250,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6737d4a38137ec1f00e02c82",
+          "index": 0,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6737d4a3db88cb5bf8019a11",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6736a0c281826fba6328d450",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a3a35705f5cf964828",
+          "index": 0,
+          "type": "Experience",
+          "value": "13695",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a377e30658687c55b2",
+          "index": 1,
+          "target":"673ace38260ffaa1bd63046f",
+          "type": "TraderStanding",
+          "value": "0.1",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a3078c6ebd1af577ef",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6737c949570dfde9b4a78826",
+              "_tpl": "5efb0cabfb3e451d70735af5"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6737c949570dfde9b4a78826",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a3583729098e593ab7",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6737cbea2bc75941f0c42cd9",
+              "_tpl": "5efb0fc6aeb21837e749c801"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6737cbea2bc75941f0c42cd9",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a3ca2020d406430f85",
+          "index": 4,
+          "items": [
+            {
+              "_id": "6737ce5c04549e407ef6d695",
+              "_tpl": "5efb0d4f4bc50b58e81710f3"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6737ce5c04549e407ef6d695",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a3ec9cad43c3e90680",
+          "index": 5,
+          "items": [
+            {
+              "_id": "6737d001eba96afade1c9a26",
+              "_tpl": "5e81f423763d9f754677bf2e"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6737d001eba96afade1c9a26",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6737d4a33f748dd5f376e699",
+          "index": 6,
+          "items": [
+            {
+              "_id": "6737d0459fac8271d9987f76",
+              "_tpl": "5ea2a8e200685063ec28c05a"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6737d0459fac8271d9987f76",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        }
+      ]
+    }
+  }
+}

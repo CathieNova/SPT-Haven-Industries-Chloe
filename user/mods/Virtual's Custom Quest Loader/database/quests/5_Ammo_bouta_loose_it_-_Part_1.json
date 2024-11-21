@@ -1,0 +1,199 @@
+{
+  "6736a0c281826fba6328d450": {
+    "QuestName": "Ammo bouta loose it - Part 1",
+    "_id": "6736a0c281826fba6328d450",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_5.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6736a0c281826fba6328d450 description",
+    "startedMessageText": "6736a0c281826fba6328d450 startedMessageText",
+    "successMessageText": "6736a0c281826fba6328d450 successMessageText",
+    "failMessageText": "6736a0c281826fba6328d450 failMessageText",
+    "acceptPlayerMessage": "6736a0c281826fba6328d450 acceptPlayerMessage",
+    "declinePlayerMessage": "6736a0c281826fba6328d450 declinePlayerMessage",
+    "completePlayerMessage": "6736a0c281826fba6328d450 completePlayerMessage",
+    "changeQuestMessageText": "6736a0c281826fba6328d450 changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "id": "6736a0c26f8dab2bd41f0a33",
+          "value": 5
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67369bf7b7750b9a94c0e7a1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c925fa22e221601da359b7b",
+            "64b7bbb74b75259c590fa897",
+            "5c3df7d588a4501f290594e5",
+            "5a3c16fe86f77452b62de32a",
+            "5efb0da7a29a85116f6ea05f",
+            "58864a4f2459770fcc257101",
+            "56d59d3ad2720bdb418b4577",
+            "5efb0e16aeb21837e749c7ff",
+            "5c0d56a986f774449d5de529"
+          ],
+          "value": 500,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6736a0585dfff846ca846036",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c925fa22e221601da359b7b",
+            "64b7bbb74b75259c590fa897",
+            "5c3df7d588a4501f290594e5",
+            "5a3c16fe86f77452b62de32a",
+            "5efb0da7a29a85116f6ea05f",
+            "58864a4f2459770fcc257101",
+            "56d59d3ad2720bdb418b4577",
+            "5efb0e16aeb21837e749c7ff",
+            "5c0d56a986f774449d5de529"
+          ],
+          "value": 500,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 7940,
+          "id": "6736a0c2f4e7aaab3aaebb2b",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.02,
+          "id": "6736a0c249e9828cbdf81af4",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c2bf572d60f6c7779f",
+          "index": 2,
+          "target": "Search",
+          "type": "Skill",
+          "unknown": true,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c240f98a1fca16ff00",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67369e25703137899bde3516",
+              "_tpl": "64b7bbb74b75259c590fa897"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "67369e25703137899bde3516",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c21bbf26b6bf70a13f",
+          "index": 4,
+          "items": [
+            {
+              "_id": "67369e2c3752f9d498bc6d47",
+              "_tpl": "5a3c16fe86f77452b62de32a"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "67369e2c3752f9d498bc6d47",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c2117dfdc3072e029a",
+          "index": 5,
+          "items": [
+            {
+              "_id": "67369e2e1439af1a07ada9e4",
+              "_tpl": "58864a4f2459770fcc257101"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "67369e2e1439af1a07ada9e4",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c2d0c3537473108c79",
+          "index": 6,
+          "items": [
+            {
+              "_id": "67369e2f0358c16459ae7144",
+              "_tpl": "56d59d3ad2720bdb418b4577"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "67369e2f0358c16459ae7144",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6736a0c2e93c912fac76ae36",
+          "index": 7,
+          "items": [
+            {
+              "_id": "67369e31402dd3f343248790",
+              "_tpl": "5efb0e16aeb21837e749c7ff"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "67369e31402dd3f343248790",
+          "traderId": "673ace38260ffaa1bd63046f",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        }
+      ],
+      "Fail": [],
+      "Started": []
+    }
+  }
+}

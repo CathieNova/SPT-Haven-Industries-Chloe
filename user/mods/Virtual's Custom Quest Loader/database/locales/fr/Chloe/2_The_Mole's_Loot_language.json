@@ -1,0 +1,15 @@
+{
+  "67349422cd684d52d835871a name": "The Mole's Loot",
+  "67349422cd684d52d835871a description": "Looks like TerraGroup got their hands on the Mole's goods. Typical.\n\nWe need to build a server farm so we can hack into their systems and get back what's ours. First step? Collect the equipment. We don't have time to waste so i don't fucking care where you get it from, so move fast. The sooner we get this done, the sooner we hit back.",
+  "67349422cd684d52d835871a startedMessageText": "We're building a server farm to take back what TerraGroup stole from us. I need the right hardware to make it happen. Get the components and bring them back. And I mean *all* of them. No excuses.",
+  "67349422cd684d52d835871a successMessageText": "Finally, you came through. Now we can get the server farm built.\n\nIt's going to take some time to hack into TerraGroup's system, so don't start celebrating yet. When I'm ready, you'll know.",
+  "6734922093a34af68a2c3a4f": "Hand over CPU Fans",
+  "67349236d677fac4f5f5d3d6": "Hand over CPU's",
+  "67349237c1d6e8aabc5d1d7a": "Hand over Power Supplies",
+  "673492373a7e1cbf1ad90e8d": "Hand over RAM",
+  "673492384dbe5820eafff434": "Hand over Graphics Cards",
+  "67349238b365fb22b17c5b1e": "Hand over HDD's",
+  "67349239009208ac541c334f": "Hand over Power Cord",
+  "673492399d668ed414762f65": "Hand over Printed Circuit Boards",
+  "6734923ab8ffd7d87f93c632": "Hand over SSD's"
+}

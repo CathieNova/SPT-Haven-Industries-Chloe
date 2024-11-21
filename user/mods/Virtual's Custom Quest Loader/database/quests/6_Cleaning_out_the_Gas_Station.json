@@ -1,0 +1,170 @@
+{
+  "67374c9d34df21f908dc6e3d": {
+    "QuestName": "Cleaning out the Gas Station",
+    "_id": "67374c9d34df21f908dc6e3d",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "Elimination",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/Chloe_8.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "67374c9d34df21f908dc6e3d description",
+    "startedMessageText": "67374c9d34df21f908dc6e3d startedMessageText",
+    "successMessageText": "67374c9d34df21f908dc6e3d successMessageText",
+    "failMessageText": "67374c9d34df21f908dc6e3d failMessageText",
+    "acceptPlayerMessage": "67374c9d34df21f908dc6e3d acceptPlayerMessage",
+    "declinePlayerMessage": "67374c9d34df21f908dc6e3d declinePlayerMessage",
+    "completePlayerMessage": "67374c9d34df21f908dc6e3d completePlayerMessage",
+    "changeQuestMessageText": "67374c9d34df21f908dc6e3d changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "conditionType": "Quest",
+          "id": "67374c9d77905d69756a9c76",
+          "status": [
+            4
+          ],
+          "target": "6734b0214d03e88d72f6c00f"
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67374c9db561edf8c2a33490",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsInclusive": [],
+                "weaponModsExclusive": []
+              },
+              {
+                "conditionType": "InZone",
+                "dynamicLocale": false,
+                "id": "67374c9dbec38c00634f417b",
+                "zoneIds": [
+                  "Cleaning_Out_Gas_Station"
+                ]
+              }
+            ],
+            "id": "67374c9d6e7cd652c423e9a9"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67374c9dd13d9b92ee9d8b6d",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 13875,
+          "id": "67374c9d61cc4b35d19aabdc",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.02,
+          "id": "67374c9dce5066fadd5f4257",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67374c9d7604b49fcffa6177",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67374c9de2652a82a4f117cb",
+              "_tpl": "6724378d8fa92a4f67a81ef9",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67374c9de2652a82a4f117cb",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67374c9da33226edd8ff29ee",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67374c9dccb31af50713c319",
+              "_tpl": "6489b88bcf0cd80b7e749069",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67374c9dccb31af50713c319",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
+        }
+      ],
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67374e21db3762698c975fcf",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67374c9d250255637ee3d41f",
+              "_tpl": "5c0e530286f7747fa1419862",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67374c9d250255637ee3d41f",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    }
+  }
+}

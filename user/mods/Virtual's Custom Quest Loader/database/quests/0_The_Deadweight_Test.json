@@ -1,0 +1,154 @@
+{
+  "67348fd0ed193d32d436e8a9": {
+    "QuestName": "The Deadweight Test",
+    "_id": "67348fd0ed193d32d436e8a9",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "PickUp",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_0.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "67348fd0ed193d32d436e8a9 description",
+    "startedMessageText": "67348fd0ed193d32d436e8a9 startedMessageText",
+    "successMessageText": "67348fd0ed193d32d436e8a9 successMessageText",
+    "failMessageText": "67348fd0ed193d32d436e8a9 failMessageText",
+    "acceptPlayerMessage": "67348fd0ed193d32d436e8a9 acceptPlayerMessage",
+    "declinePlayerMessage": "67348fd0ed193d32d436e8a9 declinePlayerMessage",
+    "completePlayerMessage": "67348fd0ed193d32d436e8a9 completePlayerMessage",
+    "changeQuestMessageText": "67348fd0ed193d32d436e8a9 changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [],
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "id": "67348df587a5ab44fcf74baa",
+          "index": 0,
+          "dynamicLocale": false,
+          "target": [
+            "59faf98186f774067b6be103",
+            "62a09ee4cf4a99369e262453",
+            "5bc9b9ecd4351e3bac122519",
+            "60b0f561c4449e4cb624c1d7",
+            "5d4041f086f7743cac3f22a7",
+            "57347c93245977448d35f6e3",
+            "59e3556c86f7741776641ac2",
+            "5e2af02c86f7746d420957d4",
+            "59e35abd86f7741778269d82",
+            "59e3596386f774176c10a2a2",
+            "577e1c9d2459773cd707c525",
+            "5c13cef886f774072e618e82",
+            "5e2aef7986f7746d3f3c33f5",
+            "5d40412b86f7743cb332ac3a",
+            "5e2af00086f7746d3f3c33f7",
+            "5c13cd2486f774072c757944",
+            "59e358a886f7741776641ac3"
+          ],
+          "value": 5,
+          "onlyFoundInRaid": true,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "id": "67348ea606dee22cf6385f10",
+          "index": 1,
+          "dynamicLocale": false,
+          "target": [
+            "59faf98186f774067b6be103",
+            "59faf98186f774067b6be103",
+            "5bc9b9ecd4351e3bac122519",
+            "60b0f561c4449e4cb624c1d7",
+            "5d4041f086f7743cac3f22a7",
+            "57347c93245977448d35f6e3",
+            "59e3556c86f7741776641ac2",
+            "5e2af02c86f7746d420957d4",
+            "59e35abd86f7741778269d82",
+            "59e3596386f774176c10a2a2",
+            "577e1c9d2459773cd707c525",
+            "5c13cef886f774072e618e82",
+            "5e2aef7986f7746d3f3c33f5",
+            "5d40412b86f7743cb332ac3a",
+            "5e2af00086f7746d3f3c33f7",
+            "5c13cd2486f774072c757944",
+            "59e358a886f7741776641ac3"
+          ],
+          "value": 5,
+          "onlyFoundInRaid": true,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 9850,
+          "id": "67348fd0bc19c47c9893f5b0",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.02,
+          "id": "67348fd01cceeacf3dbfde03",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67348fd094f77fc82910f600",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67348fd07c7c02902cac4e58",
+              "_tpl": "62a0a043cf4a99369e2624a5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67348fd07c7c02902cac4e58",
+          "type": "Item",
+          "unknown": false,
+          "value": "1"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67348fd0d69a8629d732ef49",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67348fd079c4e23156bc79a5",
+              "_tpl": "590c5d4b86f774784e1b9c45",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67348fd079c4e23156bc79a5",
+          "type": "Item",
+          "unknown": false,
+          "value": "1"
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67348fd005e7ea43c334cc37",
+          "index": 4,
+          "target": "Search",
+          "type": "Skill",
+          "unknown": false,
+          "value": 25
+        }
+      ],
+      "Fail": [],
+      "Started": []
+    }
+  }
+}

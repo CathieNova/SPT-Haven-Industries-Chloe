@@ -1,0 +1,170 @@
+{
+  "6734b0214d03e88d72f6c00f": {
+    "QuestName": "Cleaning out Dorms",
+    "_id": "6734b0214d03e88d72f6c00f",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "Elimination",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/Chloe_3.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6734b0214d03e88d72f6c00f description",
+    "startedMessageText": "6734b0214d03e88d72f6c00f startedMessageText",
+    "successMessageText": "6734b0214d03e88d72f6c00f successMessageText",
+    "failMessageText": "6734b0214d03e88d72f6c00f failMessageText",
+    "acceptPlayerMessage": "6734b0214d03e88d72f6c00f acceptPlayerMessage",
+    "declinePlayerMessage": "6734b0214d03e88d72f6c00f declinePlayerMessage",
+    "completePlayerMessage": "6734b0214d03e88d72f6c00f completePlayerMessage",
+    "changeQuestMessageText": "6734b0214d03e88d72f6c00f changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "conditionType": "Quest",
+          "id": "6734b021af70a621c69b6bb9",
+          "status": [
+            4
+          ],
+          "target": "67349422cd684d52d835871a"
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "InZone",
+                "dynamicLocale": false,
+                "id": "6734addac828270b686b22bb",
+                "zoneIds": [
+                  "Cleaning_Out_Dorms"
+                ]
+              },
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6734b0215e1a770542b131a3",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6734b021fd4e75a1c8e3c182"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6734ade9aa1345b5cf05a2ef",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 11544,
+          "id": "6734b021612de64c5bc6c6bd",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.05,
+          "id": "6734b021afb9dabbbad67017",
+          "type": "TraderStanding",
+          "target":"673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6734b021cd908b007d0a9f39",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6734b0213eefe246342b37ae",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 14850
+              }
+            }
+          ],
+          "target": "6734b0213eefe246342b37ae",
+          "type": "Item",
+          "unknown": false,
+          "value": "14850"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6734b0212e4c1a24ed8e36ad",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6734b0210c62ff3dfd12c300",
+              "_tpl": "64899f4189de40533661a0c0",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6734b0210c62ff3dfd12c300",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
+        }
+      ],
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67374f200e22cea1770c754c",
+          "index": 0,
+          "items": [
+            {
+              "_id": "6734b021d0014658649cda50",
+              "_tpl": "5c10c8fd86f7743d7d706df3",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6734b021d0014658649cda50",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "6734bc5220237ccb9096e6a1": {
+    "QuestName": "The Spacious Container",
+    "_id": "6734bc5220237ccb9096e6a1",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "Merchant",
+    "location": "any",
+    "image": "/files/quest/icon/Chloe_4.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "description": "6734bc5220237ccb9096e6a1 description",
+    "startedMessageText": "6734bc5220237ccb9096e6a1 startedMessageText",
+    "successMessageText": "6734bc5220237ccb9096e6a1 successMessageText",
+    "failMessageText": "6734bc5220237ccb9096e6a1 failMessageText",
+    "acceptPlayerMessage": "6734bc5220237ccb9096e6a1 acceptPlayerMessage",
+    "declinePlayerMessage": "6734bc5220237ccb9096e6a1 declinePlayerMessage",
+    "completePlayerMessage": "6734bc5220237ccb9096e6a1 completePlayerMessage",
+    "changeQuestMessageText": "6734bc5220237ccb9096e6a1 changeQuestMessageText",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "conditionType": "Quest",
+          "id": "6734bc523ac20a7c7e65ccd0",
+          "status": [
+            4
+          ],
+          "target": "6734b0214d03e88d72f6c00f"
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "id": "6734bbcb9fe19b14227cc61b",
+          "index": 0,
+          "dynamicLocale": false,
+          "target": [
+            "59faff1d86f7746c51718c9c"
+          ],
+          "value": 4,
+          "onlyFoundInRaid": false,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "value": 19500,
+          "id": "6734bc52fb250660b577e3bf",
+          "type": "Experience",
+          "unknown": false,
+          "index": 0
+        },
+        {
+          "availableInGameEditions": [],
+          "value": 0.025,
+          "id": "6734bc5277d2c755d8da4ce6",
+          "type": "TraderStanding",
+          "target": "673ace38260ffaa1bd63046f",
+          "unknown": false,
+          "index": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6734bc521fb97ed05c81f02e",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6734bc5216de97a73ce68baa",
+              "_tpl": "59fb042886f7746c5005a7b2",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6734bc5216de97a73ce68baa",
+          "type": "Item",
+          "unknown": false,
+          "value": "1"
+        }
+      ],
+      "Fail": [],
+      "Started": []
+    }
+  }
+}
