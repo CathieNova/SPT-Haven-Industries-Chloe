@@ -156,7 +156,7 @@
           "compareMethod": ">=",
           "conditionType": "Level",
           "id": "6738d0d32da1d8ce1c8b2361",
-          "value": 1
+          "value": 15
         }
       ],
       "Fail": []
