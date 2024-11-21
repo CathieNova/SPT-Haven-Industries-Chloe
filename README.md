@@ -84,4 +84,4 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 
 ## Showcase of all Items:
 > PS: not showing the other 75 cards......
-- ![All Items](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Items Showcase.png "All Items")
+- ![All Items](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/ItemsShowcase.png "All Items")
