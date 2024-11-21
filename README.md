@@ -1,71 +1,90 @@
 # Haven Industries - Chloe
 
-Welcome to `Haven Industries - Chloe`! This mod adds new items and features.
+Welcome to **Haven Industries - Chloe**! This mod introduces exciting new items and features.
 
 ## Description
-Everything can be found in-raid except for Secure Containers and Storage Containers.
-Check out the new items available:
+
+Explore the exciting new items you can discover in-raid with this mod. From unique figurines to collectible TCG Anime Cards, there's something for everyone.
+
+> **Note:** Secure Containers and Storage Containers are not included in the in-raid items list. These items can be crafted or obtained through quests and other means within the game.
+
+## Features
 
 ### Profiles
-- **Haven Developer Edition**: For developers.
-- **Haven Standard Edition**: For regular users.
+
+- **Haven Developer Edition**: Tailored for developers.
+- **Haven Standard Edition**: Ideal for regular users.
 
 ### Hall of Fame
-- Display your special items in the Hall of Fame.
+
+> Showcase your special items in the Hall of Fame.
 
 ### Crafting
+
 - **Ammo Crate**: Store your ammo.
-- Haven IPAC (can becrafted in the Medstation)
-- Haven Secure Container (can be crafted in Lavatory)
-- Ammo Crate (can be crafted in Workbench)
-- Item Crate (can be crafted in Workbench)
-- Weapon Crate (can be crafted in Workbench)
+- **Haven IPAC**: Craftable in the Medstation.
+- **Haven Secure Container**: Craftable in the Lavatory.
+- **Item Crate**: Craftable in the Workbench.
+- **Weapon Crate**: Craftable in the Workbench.
 
 ### TCG Anime Cards
-- Waifu Binder to hold all the 76 Waifu Cards
+
+- **Waifu Binder**: Holds all 76 Waifu Cards.
 
 ### Secure Containers
-- Haven Secure Container (obtained through quests)
-    - 1x3, 1x3, 1x3, 1x3 slots.
-- Haven Theta Secure Container (obtained through quests)
-    - 2x3, 1x3, 1x3, 1x3 slots.
+
+- **Haven Secure Container**: Obtainable through quests.
+    > Slots: 1x3, 1x3, 1x3, 1x3.
+- **Haven Theta Secure Container**: Obtainable through quests.
+    > Slots: 2x3, 1x3, 1x3, 1x3.
 
 ### New Metal Fuel Tanks
-- Red Fuel Tank
-- Blue Fuel Tank
-- Green Fuel Tank
+
+- **Red Fuel Tank**
+- **Blue Fuel Tank**
+- **Green Fuel Tank**
 
 ### Figurines
-- Eagle Figurine
-- Egyptian Cat Figurine
-- Golden Finger Figurine
-- Cultist Skull
+
+- **Eagle Figurine**
+- **Egyptian Cat Figurine**
+- **Golden Finger Figurine**
+- **Cultist Skull**
 
 ### Storage Containers
-- Haven Ipac for med storage
-- Haven Toolbox for tools and electronics storage
-- Item Crate (similar to item case)
-- Weapon Crate (similar to weapon case)
-- Ammo Crate (similar to ammo box)
+
+- **Haven Ipac**: For medical storage.
+- **Haven Toolbox**: For tools and electronics storage.
+- **Item Crate**: Similar to item case.
+- **Weapon Crate**: Similar to weapon case.
+- **Ammo Crate**: Similar to ammo box.
 
 ### Key Storage
-- Keycard Holder
-- 5 Keychains
-- Keybox that can hold the keychains and keycard holder above plus money.
+
+- **Keycard Holder**
+- **5 Keychains**
+- **Keybox**: Holds keychains, keycard holder, and money.
 
 ### Misc Items
-- C4 Explosive
 
-### Quests
-- The Deadweight Test
-- The Mole has our loot
-    - The Mole's Loot
-        - Cleaning out Dorms
-            - Cleaning out the Gas Station
-                - The Spacious Container
-- Level 5+
-    - Ammo bouta loose it - Part 1
-- Level 15+
-    - The Haven Collector
-- Level 20+ & Part 1 done
-    - Ammo bouta loose it - Part 2
+- **C4 Explosive**
+
+## Quests
+
+### Start
+
+- **`The Deadweight Test`**
+- **`The Mole has our loot`**
+    - **`The Mole's Loot`**
+        - **`Cleaning out Dorms`**
+            - **`Cleaning out the Gas Station`**
+                - **`The Spacious Container`**
+
+### Level & Other Requirements
+
+- **Level 5+**
+    - **`Ammo bouta loose it - Part 1`**
+- **Level 15+**
+    - **`The Haven Collector`**
+- **Level 20+** & **`Ammo bouta loose it - Part 1`** Completed
+    - **`Ammo bouta loose it - Part 2`**
