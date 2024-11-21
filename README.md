@@ -8,83 +8,75 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 
 > **Note:** Secure Containers and Storage Containers are not included in the in-raid items list. These items can be crafted or obtained through quests and other means within the game.
 
-## Features
+# Features
 
-### Profiles
+>## Profiles
+> ### Haven Standard Edition
+> - An improved version of the original Standard Edition. It has more useful items according to my personal view.
+> ### Haven Developer Edition
+> - Has the same stashsize as Unheard Edition and enough items and money to get your dev-on.
 
-- **Haven Developer Edition**: Tailored for developers.
-- **Haven Standard Edition**: Ideal for regular users.
+> ## Hall of Fame
+> - Showcase your special items in the Hall of Fame.
 
-### Hall of Fame
+> ## Crafting
+> - **Ammo Crate**: Store your ammo.
+> - **Haven IPAC**: Craftable in the Medstation.
+> - **Haven Secure Container**: Craftable in the Lavatory.
+> - **Item Crate**: Craftable in the Workbench.
+> - **Weapon Crate**: Craftable in the Workbench.
 
-> Showcase your special items in the Hall of Fame.
+> ## TCG Anime Cards:
+> - **Waifu Binder**: Holds all 76 Waifu Cards.
 
-### Crafting
+> ## Secure Containers:
+> ### Haven Secure Container: 
+> - Obtainable through quests.
+> - Slots: 1x3, 1x3, 1x3, 1x3.
+> ### Haven Theta Secure Container
+> - Obtainable through quests.
+> - **Slots:** 2x3, 1x3, 1x3, 1x3.
 
-- **Ammo Crate**: Store your ammo.
-- **Haven IPAC**: Craftable in the Medstation.
-- **Haven Secure Container**: Craftable in the Lavatory.
-- **Item Crate**: Craftable in the Workbench.
-- **Weapon Crate**: Craftable in the Workbench.
+> ## New Metal Fuel Tanks
+> - **Red Fuel Tank**
+> - **Blue Fuel Tank**
+> - **Green Fuel Tank**
 
-### TCG Anime Cards
+> ### Figurines
+> - **Eagle Figurine**
+> - **Egyptian Cat Figurine**
+> - **Golden Finger Figurine**
+> - **Cultist Skull**
 
-- **Waifu Binder**: Holds all 76 Waifu Cards.
+> ### Storage Containers
+> - **Haven Ipac**: For medical storage.
+> - **Haven Toolbox**: For tools and electronics storage.
+> - **Item Crate**: Similar to item case.
+> - **Weapon Crate**: Similar to weapon case.
+> - **Ammo Crate**: Similar to ammo box.
 
-### Secure Containers
+> ### Key Storage
+> - **Keycard Holder**
+> - **5 Keychains**
+> - **Keybox**: Holds keychains, keycard holder, and money.
 
-- **Haven Secure Container**: Obtainable through quests.
-    > Slots: 1x3, 1x3, 1x3, 1x3.
-- **Haven Theta Secure Container**: Obtainable through quests.
-    > Slots: 2x3, 1x3, 1x3, 1x3.
-
-### New Metal Fuel Tanks
-
-- **Red Fuel Tank**
-- **Blue Fuel Tank**
-- **Green Fuel Tank**
-
-### Figurines
-
-- **Eagle Figurine**
-- **Egyptian Cat Figurine**
-- **Golden Finger Figurine**
-- **Cultist Skull**
-
-### Storage Containers
-
-- **Haven Ipac**: For medical storage.
-- **Haven Toolbox**: For tools and electronics storage.
-- **Item Crate**: Similar to item case.
-- **Weapon Crate**: Similar to weapon case.
-- **Ammo Crate**: Similar to ammo box.
-
-### Key Storage
-
-- **Keycard Holder**
-- **5 Keychains**
-- **Keybox**: Holds keychains, keycard holder, and money.
-
-### Misc Items
-
-- **C4 Explosive**
+> ### Misc Items
+> - **C4 Explosive**
 
 ## Quests
-
-### Start
-
-- **`The Deadweight Test`**
-- **`The Mole has our loot`**
-    - **`The Mole's Loot`**
-        - **`Cleaning out Dorms`**
-            - **`Cleaning out the Gas Station`**
-                - **`The Spacious Container`**
-
-### Level & Other Requirements
-
-- **Level 5+**
-    - **`Ammo bouta loose it - Part 1`**
-- **Level 15+**
-    - **`The Haven Collector`**
-- **Level 20+** & **`Ammo bouta loose it - Part 1`** Completed
-    - **`Ammo bouta loose it - Part 2`**
+> ### Start
+> - **`The Deadweight Test`**
+> - **`The Mole has our loot`**
+>     - **`The Mole's Loot`**
+>         - **`Cleaning out Dorms`**
+>             - **`Cleaning out the Gas Station`**
+>                 - **`The Spacious Container`**
+> 
+> ### Level & Other Requirements
+> 
+> - **Level 5+**
+>     - **`Ammo bouta loose it - Part 1`**
+> - **Level 15+**
+>     - **`The Haven Collector`**
+> - **Level 20+** & **`Ammo bouta loose it - Part 1`** Completed
+>     - **`Ammo bouta loose it - Part 2`**
