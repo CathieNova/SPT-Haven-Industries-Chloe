@@ -32,10 +32,10 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 > ## Secure Containers:
 > ### Haven Secure Container: 
 > - Obtainable through quests.
-> - Slots: 1x3, 1x3, 1x3, 1x3.
+> ![Haven Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenSecureContainer.png "Haven Secure Container")
 > ### Haven Theta Secure Container
 > - Obtainable through quests.
-> - **Slots:** 2x3, 1x3, 1x3, 1x3.
+> ![Haven Theta Secure Container](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/HavenThetaSecureContainer.png "Haven Theta Secure Container")
 
 > ## New Metal Fuel Tanks
 > - **Red Fuel Tank**
@@ -59,6 +59,7 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 > - **Keycard Holder**
 > - **5 Keychains**
 > - **Keybox**: Holds keychains, keycard holder, and money.
+![Keybox](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Keybox.png "Keybox")
 
 > ### Misc Items
 > - **C4 Explosive**
@@ -80,3 +81,7 @@ Explore the exciting new items you can discover in-raid with this mod. From uniq
 >     - **`The Haven Collector`**
 > - **Level 20+** & **`Ammo bouta loose it - Part 1`** Completed
 >     - **`Ammo bouta loose it - Part 2`**
+
+## Showcase of all Items:
+PS: not showing the other 75 cards......
+![All Items](https://raw.githubusercontent.com/CathieNova/SPT-Haven-Industries-Chloe/refs/heads/SPT-3.10/Showcase%20Images/Items Showcase.png "All Items")
