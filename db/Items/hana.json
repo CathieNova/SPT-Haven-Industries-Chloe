@@ -1,0 +1,93 @@
+{
+    "67311578e1051a9e756f0228": {
+        "itemTplToClone": "5e2af29386f7746d4159f077",
+        "parentId": "57864ada245977548638de91",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haventcg/hana.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.02,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 10,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "green"
+        },
+        "locales": {
+            "en": {
+                "name": "Hana - Waifu Card",
+                "shortName": "Hana",
+                "Description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 23754,
+        "handbookPriceRoubles": 15836,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 128
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+                "Probability": 127
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 161
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 249
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 134
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 232
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 249
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 294
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_JACKET",
+                "Probability": 100
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 139
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_RATION_SUPPLY_CRATE",
+                "Probability": 201
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": false
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "67247738377186659e26c83c": {
+        "itemTplToClone": "5d1b36a186f7742523398433",
+        "parentId": "5d650c3e815116009f6201d2",
+        "handbookParentId": "BARTER_FLAMMABLE",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "haven/metal_fuel_tank_green.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 9.25,
+            "Height": 3,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "yellow",
+            "MaxResource": 100,
+            "Resource": 100
+        },
+        "locales": {
+            "en": {
+                "name": "Metal Fuel Tank Green",
+                "shortName": "Tank",
+                "description": "A metal fuel tank for liquid flammable materials."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 234519,
+        "handbookPriceRoubles": 192650,
+        "addtoTraders": true,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 300
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 192650,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+                "Probability": 229
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_SUPPLY_CRATE",
+                "Probability": 280
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 307
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 238
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 373
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 393
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 379
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 318
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_TOOLBOX",
+                "Probability": 246
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 329
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 256
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 256
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 260
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 400
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 325
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addtoGenerator": true,
+        "compatibleGeneratorStages": [
+            1,
+            2,
+            3
+        ]
+    }
+}

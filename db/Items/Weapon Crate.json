@@ -1,0 +1,82 @@
+{
+    "6724785531ad72662dc7fbf7": {
+        "itemTplToClone": "5b6d9ce188a4501afc1b2b25",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "GEAR_CASES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "haven/weapon_crate.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 9,
+            "Height": 2,
+            "Width": 6,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "BackgroundColor": "yellow",
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "67247852ce698f8ab61f4975",
+                    "_parent": "6724785531ad72662dc7fbf7",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5448fe124bdc2da5018b4567",
+                                    "5422acb9af1c889c16000029",
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 8,
+                        "cellsV": 4,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "67247850b80005e31cdc09af"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Weapon Crate",
+                "shortName": "Weapon Crate",
+                "description": "A large container for storing weapons."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 887595,
+        "handbookPriceRoubles": 575620,
+        "addtoTraders": true,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 50
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 975620,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": []
+    }
+}

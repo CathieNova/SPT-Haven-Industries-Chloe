@@ -1,0 +1,91 @@
+{
+    "67245563ca7fe82e04ece38b": {
+        "itemTplToClone": "59e3639286f7741777737013",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/egyptian_cat.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.5,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "Egyptian Cat",
+                "shortName": "Cat",
+                "description": "A small statue of an Egyptian cat. It is said to bring good luck to its owner."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 97650,
+        "handbookPriceRoubles": 77664,
+        "addtoTraders": false,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 0
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 0,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 390
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 223
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 377
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 391
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 317
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 281
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 243
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 231
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": true
+    }
+}

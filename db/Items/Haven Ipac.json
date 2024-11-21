@@ -1,0 +1,86 @@
+{
+    "673e9ea1af35889366e815b9": {
+        "itemTplToClone": "5d235bb686f77443f4331278",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "ExamineTime": 1,
+            "Prefab": {
+                "path": "haven/ipac.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.5,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "InsuranceDisabled": true,
+            "RarityPvE": "Not_exist",
+            "LootExperience": 5,
+            "BackgroundColor": "violet",
+            "CanPutIntoDuringTheRaid": true,
+            "DiscardingBlock": false,
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "673e9e9db5607743c55a7bf6",
+                    "_parent": "673e9ea1af35889366e815b9",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b47574386f77428ca22b2f3",
+                                    "57864c8c245977548867e7f1",
+                                    "5b47574386f77428ca22b344",
+                                    "5448f39d4bdc2d0a728b4568",
+                                    "5b47574386f77428ca22b338",
+                                    "5448f3ac4bdc2dce718b4569",
+                                    "5b47574386f77428ca22b337",
+                                    "5448f3a14bdc2d27728b4569",
+                                    "5448f3a64bdc2d60728b456a",
+                                    "5b47574386f77428ca22b33a",
+                                    "5b47574386f77428ca22b339"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 2,
+                        "cellsV": 3,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "6727528db96e2763f4e2b475"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Haven IPAC",
+                "shortName": "IPAC",
+                "description": "The Haven IPAC is a medical pouch that can hold any medical items."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 130000,
+        "handbookPriceRoubles": 69000,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addToHallOfFameSmall": false
+    }
+}

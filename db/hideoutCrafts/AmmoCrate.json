@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "67357c7e1608cd90faaa376c",
+    "areaType": 10,
+    "productionTime": 10720,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "6724469f385eda5238e154f7",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false,
+    "requirements": [
+      {
+        "areaType": 10,
+        "requiredLevel": 1,
+        "type": "Area"
+      },
+      {
+        "type": "Tool",
+        "templateId": "590c2e1186f77425357b6124"
+      },
+      {
+        "type": "Tool",
+        "templateId": "5d40419286f774318526545f"
+      },
+      {
+        "type": "Item",
+        "templateId": "5d1b36a186f7742523398433",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false
+      },
+      {
+        "type": "Item",
+        "templateId": "61bf7b6302b3924be92fa8c3",
+        "count": 3,
+        "isFunctional": false,
+        "isEncoded": false
+      },
+      {
+        "type": "Item",
+        "templateId": "57347c5b245977448d35f6e1",
+        "count": 3,
+        "isFunctional": false,
+        "isEncoded": false
+      },
+      {
+        "type": "Item",
+        "templateId": "57347c77245977448d35f6e2",
+        "count": 3,
+        "isFunctional": false,
+        "isEncoded": false
+      },
+      {
+        "type": "Item",
+        "templateId": "5e2af29386f7746d4159f077",
+        "count": 2,
+        "isFunctional": false,
+        "isEncoded": false
+      }
+    ]
+  }
+]

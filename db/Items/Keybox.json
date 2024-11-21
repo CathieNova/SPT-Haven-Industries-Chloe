@@ -1,0 +1,109 @@
+{
+    "67275288cb2d8dae08bc9fbe": {
+        "itemTplToClone": "5d235bb686f77443f4331278",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "ExamineTime": 1,
+            "Prefab": {
+                "path": "haven-keystorage/keybox.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.5,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "InsuranceDisabled": true,
+            "RarityPvE": "Not_exist",
+            "LootExperience": 10,
+            "BackgroundColor": "violet",
+            "CanPutIntoDuringTheRaid": true,
+            "DiscardingBlock": false,
+            "Grids": [
+                {
+                    "_name": "slots",
+                    "_id": "67275550150ea8e9eb9d2947",
+                    "_parent": "67275288cb2d8dae08bc9fbe",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6727518865f19c433e5611d7",
+                                    "672773cfcfb61cccb95d3e5f",
+                                    "672775108079465dcc4128e8",
+                                    "6727751d221f3f8637f70e69",
+                                    "67277578b229905fea537e35",
+                                    "67277648ccad5440d136a3e4"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 1,
+                        "cellsV": 6,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "6727528db96e2763f4e2b475"
+                },
+                {
+                    "_name": "main",
+                    "_id": "6727528559e4047211d17f62",
+                    "_parent": "67275288cb2d8dae08bc9fbe",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "543be5dd4bdc2deb348b4569",
+                                    "5c164d2286f774194c5e69fa",
+                                    "5c99f98d86f7745c314214b3",
+                                    "5b47574386f77428ca22b342",
+                                    "5c518ed586f774119a772aee",
+                                    "5c518ec986f7743b68682ce2",
+                                    "5b5f78b786f77447ed5636af"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 4,
+                        "cellsV": 6,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "6727528db96e2763f4e2b475"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Haven Keybox",
+                "shortName": "Keybox",
+                "description": "The keybox is a secure storage container for keychains, cardholders, keys, keycards as well as currency."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 300000,
+        "handbookPriceRoubles": 200000,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addToHallOfFameSmall": true
+    }
+}

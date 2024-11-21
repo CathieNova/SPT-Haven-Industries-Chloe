@@ -1,0 +1,820 @@
+{
+    "manifest": [
+        {
+            "key": "haventcg/waifu_binder.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/cultist_skull.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/eagle_figurine.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/egyptian_cat.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/golden_finger.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/bio_coin.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/black_tetriz.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/c4.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/crate.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/hexa_coin.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/items_box.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/metal_fuel_tank_blue.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/metal_fuel_tank_green.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/metal_fuel_tank_red.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/weapon_crate.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keychain1.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keychain2.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keychain3.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keychain4.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keychain5.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keycard_holder.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven-keystorage/keybox.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        { 
+            "key": "haventcg/aiko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/akari.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/akira.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/amaya.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/aoi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/arisa.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/asuka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/ayane.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/ayumi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/chihiro.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/chika.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/chiyo.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/eiko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/emiko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/erina.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/hana.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/haruka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/hikari.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/himari.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/hinata.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/hitomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/honoka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/hotaru.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/ichika.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/izumi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kaede.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kana.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kanade.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kasumi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kiyomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kokoro.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kotomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kumiko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/kyoko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/madoka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mai.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/maki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mana.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mao.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mari.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/marina.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mayu.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/megumi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mika.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/miki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mio.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/mizuki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/nanami.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/nao.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/naomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/natsuki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/nozomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/reina.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/rika.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/riko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/rin.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/rina.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/ritsuko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/rui.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/saki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/sakura.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/satomi.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/sayaka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/shion.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/shizuka.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/sora.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/suzume.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/tomoko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/tsukasa.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/wakana.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yoko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yui.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yuki.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yumiko.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yuri.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        }, 
+        { 
+            "key": "haventcg/yuuna.bundle", 
+            "dependencyKeys": [ 
+                "shaders", 
+                "cubemaps", 
+                "assets/commonassets/physics/physicsmaterials.bundle" 
+            ] 
+        },
+        {
+            "key": "haven/haven_secure_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/haven_theta_secure_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/haven_toolbox.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "haven/ipac.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+    ]
+}

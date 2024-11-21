@@ -1,0 +1,107 @@
+{
+    "67247b652a1a4420796f905c": {
+        "itemTplToClone": "5c12620d86f7743f8b198b72",
+        "parentId": "57864a66245977548f04a81f",
+        "handbookParentId": "BARTER_ELECTRONICS",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/black_tetriz.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.13,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "Portable Tetriz Black",
+                "shortName": "Tetriz",
+                "description": "An ancient artifact of a lost past, apparently the Black Edition. May be of interest to Mechanic, an avid collector of electronics."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 97650,
+        "handbookPriceRoubles": 77664,
+        "addtoTraders": false,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 0
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 0,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 379
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_CASH_REGISTER",
+                "Probability": 299
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_CASH_REGISTER_TAR22",
+                "Probability": 272
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 323
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 386
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 220
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 391
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 348
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 334
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_JACKET",
+                "Probability": 331
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_PLASTIC_SUITCASE",
+                "Probability": 286
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 237
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameBig": true
+    }
+}

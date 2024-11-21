@@ -1,0 +1,101 @@
+{
+    "672444824d06e70b16ec1e1e": {
+        "itemTplToClone": "60391b0fb847c71012789415",
+        "parentId": "57864e4c24597754843f8723",
+        "handbookParentId": "WEAPONS_THROW",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/c4.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 7.28,
+            "Height": 2,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "C4 Explosive",
+                "shortName": "C4",
+                "description": "C4 Explosive is a powerful explosive that can be used to breach various obstacles. The detonator seems to be missing, perhaps Chloe knows how to use it."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 35303,
+        "handbookPriceRoubles": 25303,
+        "addtoTraders": false,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+                "Probability": 339
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 265
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 333
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 392
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 272
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GRENADE_BOX",
+                "Probability": 328
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE",
+                "Probability": 268
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 239
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 362
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+                "Probability": 256
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 241
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+                "Probability": 291
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+                "Probability": 338
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameBig": true
+    }
+}

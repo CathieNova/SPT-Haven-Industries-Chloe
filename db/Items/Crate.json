@@ -1,0 +1,85 @@
+{
+    "6724469f385eda5238e154f7": {
+        "itemTplToClone": "567143bf4bdc2d1a0f8b4567",
+        "parentId": "5671435f4bdc2d96058b4569",
+        "handbookParentId": "GEAR_CASES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "haven/crate.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.5,
+            "Height": 3,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "BackgroundColor": "blue",
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "672446ab9351cf48db07f81d",
+                    "_parent": "6724469f385eda5238e154f7",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5b47574386f77428ca22b346",
+                                    "543be5cb4bdc2deb348b4568",
+                                    "5b47574386f77428ca22b33c",
+                                    "5b5f754a86f774094242f19b",
+                                    "5448bc234bdc2d3c308b4569",
+                                    "5b47574386f77428ca22b33b",
+                                    "5485a8684bdc2da71d8b4567"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 5,
+                        "cellsV": 5,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "672446fb089f8ebb56db5925"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Ammo Crate",
+                "shortName": "Ammo Crate",
+                "description": "The Ammo Crate is a medium sized container that can hold a variety of ammunition types. It is a great way to store ammo and keep it organized."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 244866,
+        "handbookPriceRoubles": 177664,
+        "addtoTraders": true,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 50
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 177664,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": []
+    }
+}

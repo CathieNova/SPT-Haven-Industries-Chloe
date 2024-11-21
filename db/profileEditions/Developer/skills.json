@@ -1,0 +1,360 @@
+{
+    "Common": [
+        {
+            "Id": "BotReload",
+            "LastAccess": -2147483648,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "BotSound",
+            "LastAccess": -2147483648,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Endurance",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Strength",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Vitality",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Health",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "StressResistance",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Metabolism",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Immunity",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Perception",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Intellect",
+            "LastAccess": 1732167094,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000.05
+        },
+        {
+            "Id": "Attention",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Charisma",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Memory",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Pistol",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Revolver",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "SMG",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Assault",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Shotgun",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Sniper",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "LMG",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "HMG",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Launcher",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "AttachedLauncher",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Throwing",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Melee",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "DMR",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "RecoilControl",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "AimDrills",
+            "LastAccess": -2147483648,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "TroubleShooting",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Surgery",
+            "LastAccess": -2147483648,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "CovertMovement",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Search",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "MagDrills",
+            "LastAccess": -2147483648,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Sniping",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "ProneMovement",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "FieldMedicine",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "FirstAid",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "LightVests",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "HeavyVests",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "WeaponModding",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "AdvancedModding",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "NightOps",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "SilentOps",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Lockpicking",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "WeaponTreatment",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Freetrading",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Auctions",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Cleanoperations",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Barter",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "Shadowconnections",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Taskperformance",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 0
+        },
+        {
+            "Id": "Crafting",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "HideoutManagement",
+            "LastAccess": 0,
+            "PointsEarnedDuringSession": 0,
+            "Progress": 4000
+        },
+        {
+            "Id": "BearAssaultoperations",
+            "Progress": 0,
+            "PointsEarnedDuringSession": 0,
+            "LastAccess": 0
+        },
+        {
+            "Id": "BearAuthority",
+            "Progress": 0,
+            "PointsEarnedDuringSession": 0,
+            "LastAccess": 0
+        },
+        {
+            "Id": "BearAksystems",
+            "Progress": 0,
+            "PointsEarnedDuringSession": 0,
+            "LastAccess": 0
+        },
+        {
+            "Id": "BearHeavycaliber",
+            "Progress": 0,
+            "PointsEarnedDuringSession": 0,
+            "LastAccess": 0
+        },
+        {
+            "Id": "BearRawpower",
+            "Progress": 0,
+            "PointsEarnedDuringSession": 0,
+            "LastAccess": 0
+        }
+    ],
+    "Mastering": [],
+    "Points": 0
+}

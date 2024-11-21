@@ -1,0 +1,376 @@
+{
+    "67277648ccad5440d136a3e4": {
+        "itemTplToClone": "5a9d6d00a2750c5c985b5305",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "ExamineTime": 1,
+            "Prefab": {
+                "path": "haven-keystorage/keycard_holder.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.015,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "InsuranceDisabled": true,
+            "RarityPvE": "Not_exist",
+            "LootExperience": 10,
+            "BackgroundColor": "violet",
+            "CanPutIntoDuringTheRaid": true,
+            "DiscardingBlock": false,
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "67278379d901227ce1b321aa",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5e42c81886f7742a01529f57"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "6727837a3786835d056effe2",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5e42c83786f7742a021fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "67278387d27c3c2d68ce0dba",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5efde6b4f5448336730dbd61"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_id": "67278399b8eb38b024ed1c36",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1e495a86f7743109743dfb"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_004",
+                    "_id": "6727839a579f91cf706f62a9",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1d0d6d86f7744bb2683e1f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_005",
+                    "_id": "672783a2017e5eca717ec7ec",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1d0dc586f7744baf2e7b79"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_006",
+                    "_id": "672783a46a172569fc011dbf",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1d0f4986f7744bb01837fa"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_007",
+                    "_id": "672783a669e2e45f33fab577",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1d0efb86f7744baf2e7b7b"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_008",
+                    "_id": "672783a77f043ea8012eb53b",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c1d0c5f86f7744bb2683cf0"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_009",
+                    "_id": "672783a94d48dd3a4d1da94c",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_016",
+                    "_id": "6727846b845baaaecab834e9",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_017",
+                    "_id": "6727846c91151539e216dae6",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_018",
+                    "_id": "6727846de4988c1796d25d02",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_019",
+                    "_id": "6727846e86537dfacc7fb089",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_020",
+                    "_id": "6727846ff044369a94f1d5cc",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_021",
+                    "_id": "672784708bce4738d4fc4865",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_022",
+                    "_id": "672784716739c5de87e75ae4",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                    "_name": "mod_mount_023",
+                    "_id": "67278472a65d402be3ad9ab6",
+                    "_parent": "67277648ccad5440d136a3e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c94bbff86f7747ee735c08f"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "6727519c89db2a08630208a7"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Haven Keycard Holder",
+                "shortName": "CardH",
+                "description": "A keycard holder for storing keycards."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 59840,
+        "handbookPriceRoubles": 50400,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": []
+    }
+}

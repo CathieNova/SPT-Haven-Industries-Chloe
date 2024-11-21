@@ -1,0 +1,899 @@
+{
+    "672773cfcfb61cccb95d3e5f": {
+        "itemTplToClone": "5a9d6d00a2750c5c985b5305",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "ExamineTime": 1,
+            "Prefab": {
+                "path": "haven-keystorage/keychain2.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.015,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "InsuranceDisabled": true,
+            "RarityPvE": "Not_exist",
+            "LootExperience": 10,
+            "BackgroundColor": "violet",
+            "CanPutIntoDuringTheRaid": true,
+            "DiscardingBlock": false,
+            "Slots": [
+                {
+                "_name": "mod_mount_000",
+                "_id": "673362e1b0b5735be67caf1d",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "591afe0186f77431bd616a11"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_001",
+                "_id": "673362e116151aa9fc252c92",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5d08d21286f774736e7c94c3"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_002",
+                "_id": "673362e1c62a7366b0ae0fc7",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "591ae8f986f77406f854be45"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_003",
+                "_id": "673362e18b94807424ae822f",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eb6ac86f7743124037a28"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_004",
+                "_id": "673362e111c81544be3eebaf",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0f068686f7745b0d4ea242"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_005",
+                "_id": "673362e177ef6210110e5a71",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a144bdb86f7741d374bbde0"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_006",
+                "_id": "673362e18496decc16c400c4",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee4b586f7743698200d22"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_007",
+                "_id": "673362e1a06fb62c01aee46b",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee62286f774369454a7ac"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_008",
+                "_id": "673362e157a5a75591895704",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee72c86f77436955d3435"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_009",
+                "_id": "673362e1ecb1afbd2892c396",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee76686f7743698200d5c"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_010",
+                "_id": "673362e12f69c9305f78c417",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13f24186f77410e57c5626"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_011",
+                "_id": "673362e1787076fd7346e553",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13f35286f77413ef1436b0"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_012",
+                "_id": "673362e1b3a178c9a4a36f5d",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a145d4786f7744cbb6f4a12"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_013",
+                "_id": "673362e199e63c3c51c4dea1",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a145d7b86f7744cbb6f4a13"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_014",
+                "_id": "673362e1d85d2aaac3817872",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eec9686f77402ac5c39f2"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_015",
+                "_id": "673362e1841ba352a192ec34",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eecf686f7740350630097"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_016",
+                "_id": "673362e15a89c52fdb98efb7",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eed4386f77405112912aa"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_017",
+                "_id": "673362e14679f065e03fffdb",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a145ebb86f77458f1796f05"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_018",
+                "_id": "673362e1f1799dcc31b13d07",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eedb386f77403506300be"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_019",
+                "_id": "673362e102e1ca86dc3b11e1",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eee1486f77402aa773226"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_020",
+                "_id": "673362e1d799ca065c4dafd6",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0f045e86f7745b0f0d0e42"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_021",
+                "_id": "673362e1aa6b5f51d36a96c7",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0f08bc86f77478f33b84c2"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_022",
+                "_id": "673362e1dcdd4a4b35bef98c",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ea79b86f7741d4a35298e"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_023",
+                "_id": "673362e1afe9c8448525d5c1",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0f0f5886f7741c4e32a472"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_024",
+                "_id": "673362e1f85a0d305d3c44da",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5d8e15b686f774445103b190"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_025",
+                "_id": "673362e12675980f28a6163b",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0f075686f7745bcc42ee12"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_026",
+                "_id": "673362e1e9357f860a579cb2",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0dc45586f7742f6b0b73e3"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_027",
+                "_id": "673362e1d1b6751f28251605",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0dc95c86f77452440fc675"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_028",
+                "_id": "673362e1ad16eb1979423724",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a144dfd86f77445cb5a0982"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_029",
+                "_id": "673362e13ac3907f7665e7a1",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ec6d286f7742c0b518fb5",
+                        "5a0ec6d286f7742c0b518fb5"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_031",
+                "_id": "673363f45d7105f44e7a994c",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ec70e86f7742c0b518fba"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_032",
+                "_id": "673363f4ef2f8a7d7f7e1f0c",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee30786f774023b6ee08f"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_033",
+                "_id": "673363f4e83e4fbfbd3b9e2e",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13eebd86f7746fd639aa93"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_034",
+                "_id": "673363f4e9bf54efaf68fd77",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13ef0686f7746e5a411744"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_035",
+                "_id": "673363f4441abc4ee21a9bf6",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee34586f774023b6ee092"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_036",
+                "_id": "673363f4821268f40d161b1b",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0ee37f86f774023657a86f"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_037",
+                "_id": "673363f4b7d31a90bdab5a7e",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a1452ee86f7746f33111763"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_038",
+                "_id": "673363f49a141d9eb2ec5a55",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13ef7e86f7741290491063"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_039",
+                "_id": "673363f4c52d991ffd942221",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eeb1a86f774688b70aa5c"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_040",
+                "_id": "673363f492a30a2b03660134",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13f46386f7741dd7384b04"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_041",
+                "_id": "673363f4e713cda7d7919bfd",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eeb8e86f77461257ed71a"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_042",
+                "_id": "673363f46ac4e295e24dc2f8",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eff2986f7741fd654e684"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_043",
+                "_id": "673363f43aad9be8093c17d0",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a13ee1986f774794d4c14cd"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_044",
+                "_id": "673363f4c0958a39d48e1177",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eebed86f77461230ddb3d"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_045",
+                "_id": "673363f49e8bf5ab0e3f2735",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0448bc86f774736f14efa8"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_047",
+                "_id": "673363f419247ef78bec47d4",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eb38b86f774153b320eb0"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                },
+                {
+                "_name": "mod_mount_048",
+                "_id": "673363f4ee9314d39a273395",
+                "_parent": "672773cfcfb61cccb95d3e5f",
+                "_props": {
+                    "filters": [
+                    {
+                        "Shift": 0,
+                        "Filter": [
+                        "5a0eb38b86f774153b320eb0"
+                        ]
+                    }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "6727519c89db2a08630208a7"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Haven Keychain - 2",
+                "shortName": "K2",
+                "description": "Haven Keychain - 2 can hold keys from Shoreline and Woods."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 59840,
+        "handbookPriceRoubles": 50400,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": []
+    }
+}

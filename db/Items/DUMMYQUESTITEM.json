@@ -1,0 +1,121 @@
+{
+    "673930b49a5ab2494ea224a6": {
+        "itemTplToClone": "5939e5a786f77461f11c0098",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/c4.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 7.28,
+            "Height": 2,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "blue",
+            "QuestItem": false,
+            "QuestStashMaxCount": 0
+        },
+        "locales": {
+            "en": {
+                "name": "C4 Explosive (quest)",
+                "shortName": "C4",
+                "description": "C4 Explosive is a powerful explosive that can be used to breach various obstacles. The detonator seems to be missing, perhaps Chloe knows how to use it."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addQuestItemLocation": false,
+        "QuestMapLocation": "bigmap",
+        "StaticQuestLootLocations": [
+            {
+                "locationId": "(198.5724, -0.8487154, 153.0577)",
+                "probability": 1,
+                "template": {
+                    "Id": "673938f46c2dc929009010c4",
+                    "isContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 198.5724,
+                        "y": -0.8487154,
+                        "z": 153.0577
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "IsGroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "673930be0f77b5be9559563e",
+                    "Items": [
+                        {
+                            "_id": "673930be0f77b5be9559563e",
+                            "_tpl": "673930b49a5ab2494ea224a6",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "addLooseItemLocations": true,
+        "LooseLootMapLocations": ["bigmap"],
+        "StaticLooseLootLocations": [
+            {
+                "locationId": "(198.5725, -0.8487154, 153.0577)",
+                "probability": 1,
+                "template": {
+                    "Id": "673abd31f103968f6f98087b",
+                    "isContainer": false,
+                    "useGravity": false,
+                    "randomRotation": true,
+                    "Position": {
+                        "x": 198.5725,
+                        "y": -0.8487154,
+                        "z": 153.0577
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "IsGroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "673abd33405e36e0db6bcd33",
+                    "Items": [
+                        {
+                            "_id": "673abd33405e36e0db6bcd33",
+                            "_tpl": "673930b49a5ab2494ea224a6",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

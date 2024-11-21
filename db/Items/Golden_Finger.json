@@ -1,0 +1,91 @@
+{
+    "6724555ee6630e254a135769": {
+        "itemTplToClone": "59e3639286f7741777737013",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/golden_finger.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 3.42,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "blue"
+        },
+        "locales": {
+            "en": {
+                "name": "The Golden Finger",
+                "shortName": "Finger",
+                "description": "Solid gold middle finger statue, because sometimes you just need a high-value 'fuck you' on your shelf. Heavy and about as subtle as a flashbang in the dead of night, this classy little piece was crafted for the sole purpose of flipping off anyone who crosses its path. Even your loot is done being polite."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 77631,
+        "handbookPriceRoubles": 52680,
+        "addtoTraders": false,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 0
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 0,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 220
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 364
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 362
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 379
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 364
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 284
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 257
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 220
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": true
+    }
+}

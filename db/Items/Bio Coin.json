@@ -1,0 +1,107 @@
+{
+    "6724378d8fa92a4f67a81ef9": {
+        "itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": false,
+            "Prefab": {
+                "path": "haven/bio_coin.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.01,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 25,
+            "RarityPvE": "Superrare",
+            "BackgroundColor": "violet"
+        },
+        "locales": {
+            "en": {
+                "name": "Bio Coin",
+                "shortName": "Bio",
+                "description": "The Bio Coin used to be a currency in the Terra Group laboratory complex. It is now a valuable item for collectors."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 97650,
+        "handbookPriceRoubles": 77664,
+        "addtoTraders": false,
+        "traderId": "673ace38260ffaa1bd63046f",
+        "traderItems": [
+            {
+                "unlimitedCount": false,
+                "stackObjectsCount": 0
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 0,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 1,
+        "addtoBots": true,
+        "addtoStaticLootContainers": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+                "Probability": 306
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_CASH_REGISTER",
+                "Probability": 210
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_CASH_REGISTER_TAR22",
+                "Probability": 210
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_COMMON_FUND_STASH",
+                "Probability": 285
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 372
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DRAWER",
+                "Probability": 220
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
+                "Probability": 379
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
+                "Probability": 231
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_GROUND_CACHE",
+                "Probability": 316
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_JACKET",
+                "Probability": 249
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_PLASTIC_SUITCASE",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_SAFE",
+                "Probability": 390
+            }
+        ],
+        "addLooseLoot": true,
+        "addLooseLootProbability": 1000,
+        "addToHallOfFameSmall": true
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "673ea2665240743d3181916b": {
+        "itemTplToClone": "5d235bb686f77443f4331278",
+        "parentId": "5795f317245977243854e041",
+        "handbookParentId": "BARTER_VALUABLES",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "ExamineTime": 1,
+            "Prefab": {
+                "path": "haven/haven_toolbox.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 1.5,
+            "Height": 2,
+            "Width": 3,
+            "StackMaxSize": 1,
+            "InsuranceDisabled": true,
+            "RarityPvE": "Not_exist",
+            "LootExperience": 5,
+            "BackgroundColor": "violet",
+            "CanPutIntoDuringTheRaid": true,
+            "DiscardingBlock": false,
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "673ea26bf004b1eaca4ff323",
+                    "_parent": "673ea2665240743d3181916b",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57864bb7245977548b3b66c2",
+                                    "5b47574386f77428ca22b2f6",
+                                    "57864ada245977548638de91",
+                                    "5b47574386f77428ca22b2ee",
+                                    "5b47574386f77428ca22b2ed",
+                                    "57864e4c24597754843f8723",
+                                    "5b47574386f77428ca22b2f2",
+                                    "57864a66245977548f04a81f",
+                                    "5b47574386f77428ca22b2ef"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 6,
+                        "cellsV": 4,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "isSortingTable": false
+                    },
+                    "_proto": "6727528db96e2763f4e2b475"
+                }
+            ],
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "Haven Toolbox",
+                "shortName": "Toolbox",
+                "description": "A toolbox for storing tools and electronics."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 805332,
+        "handbookPriceRoubles": 415269,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addToHallOfFameSmall": false
+    }
+}
