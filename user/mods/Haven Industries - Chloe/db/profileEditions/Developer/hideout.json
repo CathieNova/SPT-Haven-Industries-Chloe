@@ -4,7 +4,7 @@
             "completeTime": 0,
             "constructing": false,
             "lastRecipe": "",
-            "level": 4,
+            "level": 1,
             "passiveBonusesEnabled": true,
             "slots": [],
             "type": 3
@@ -247,18 +247,13 @@
             "completeTime": 0,
             "constructing": false,
             "lastRecipe": "",
-            "level": 1,
+            "level": 0,
             "passiveBonusesEnabled": true,
-            "slots": [
-                {
-                    "item": null
-                }
-            ],
+            "slots": [],
             "type": 27
         }
     ],
     "Improvements": {},
     "Production": {},
-    "Seed": 222222222,
     "HideoutCounters": null
 }
