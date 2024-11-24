@@ -40,13 +40,15 @@ export class CustomProfileEdition {
                     profileInfo.name,
                     folder,
                     profileInfo.copyEdition,
-                    profileInfo.gameVersion
+                    profileInfo.gameVersion,
+                    profileInfo.experience,
+                    profileInfo.level
                 );
             }
         });
     }
 
-    private addProfile(tables: any, logger: ILogger, profileName: string, folder: string, copyEdition: string, gameVersion: string): void {
+    private addProfile(tables: any, logger: ILogger, profileName: string, folder: string, copyEdition: string, gameVersion: string, experience: any, level: any): void {
         const templateProfile = tables.templates.profiles[copyEdition];
         const newProfile = JSON.parse(JSON.stringify(templateProfile));
         const profilePath = join(__dirname, "../db/profileEditions", folder);
@@ -74,6 +76,10 @@ export class CustomProfileEdition {
         newProfile.bear.character.Hideout = hideout;
         newProfile.usec.character.Info.GameVersion = gameVersion;
         newProfile.bear.character.Info.GameVersion = gameVersion;
+        newProfile.usec.character.Info.Experience = experience;
+        newProfile.bear.character.Info.Experience = experience;
+        newProfile.usec.character.Info.Level = level;
+        newProfile.bear.character.Info.Level = level;
 
         tables.templates.profiles[profileName] = newProfile;
         logger.log(`[Haven Industries - Chloe] Added ${profileName} profile.`, "magenta");

@@ -2,5 +2,7 @@
   "enabled": true,
   "name": "Haven Standard Edition",
   "copyEdition": "Standard",
-  "gameVersion": "standard"
+  "gameVersion": "standard",
+  "experience": 0,
+  "level": 1
 }

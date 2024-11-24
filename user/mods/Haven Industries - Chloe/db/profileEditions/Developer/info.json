@@ -2,5 +2,7 @@
   "enabled": true,
   "name": "Haven Developer Edition",
   "copyEdition": "Unheard",
-  "gameVersion": "unheard_edition"
+  "gameVersion": "unheard_edition",
+  "experience": 19926895,
+  "level": 69
 }
