@@ -1,7 +1,7 @@
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { ProfileHelper } from "@spt/helpers/ProfileHelper";
 import { TraderHelper } from "@spt/helpers/TraderHelper";
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
 import { IQuestConfig } from "@spt/models/spt/config/IQuestConfig";
 import { IRagfairConfig } from "@spt/models/spt/config/IRagfairConfig";
@@ -65,7 +65,7 @@ export declare class RagfairServerHelper {
      * @param sessionID Player to send items to
      * @param returnedItems Items to send to player
      */
-    returnItems(sessionID: string, returnedItems: IItem[]): void;
+    returnItems(sessionID: string, returnedItems: Item[]): void;
     calculateDynamicStackCount(tplId: string, isWeaponPreset: boolean): number;
     /**
      * Choose a currency at random with bias
@@ -77,11 +77,11 @@ export declare class RagfairServerHelper {
      * @param item Preset item
      * @returns Array of weapon and its children
      */
-    getPresetItems(item: IItem): IItem[];
+    getPresetItems(item: Item): Item[];
     /**
      * Possible bug, returns all items associated with an items tpl, could be multiple presets from globals.json
      * @param item Preset item
      * @returns
      */
-    getPresetItemsByTpl(item: IItem): IItem[];
+    getPresetItemsByTpl(item: Item): Item[];
 }

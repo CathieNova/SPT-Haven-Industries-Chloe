@@ -1,4 +1,4 @@
-import { IDialogue, IUserDialogInfo } from "@spt/models/eft/profile/ISptProfile";
+import { Dialogue, IUserDialogInfo } from "@spt/models/eft/profile/ISptProfile";
 import { IWsNotificationEvent } from "@spt/models/eft/ws/IWsNotificationEvent";
 import { MessageType } from "@spt/models/enums/MessageType";
 import { SaveServer } from "@spt/servers/SaveServer";
@@ -32,5 +32,5 @@ export declare class NotificationSendHelper {
      * @param senderDetails Who is sending the message
      * @returns Dialogue
      */
-    protected getDialog(sessionId: string, messageType: MessageType, senderDetails: IUserDialogInfo): IDialogue;
+    protected getDialog(sessionId: string, messageType: MessageType, senderDetails: IUserDialogInfo): Dialogue;
 }

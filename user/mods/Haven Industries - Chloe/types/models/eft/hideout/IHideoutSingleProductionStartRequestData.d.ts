@@ -1,11 +1,11 @@
 export interface IHideoutSingleProductionStartRequestData {
     Action: "HideoutSingleProductionStart";
     recipeId: string;
-    items: IHandoverItem[];
-    tools: IHandoverItem[];
+    items: Item[];
+    tools: Item[];
     timestamp: number;
 }
-export interface IHandoverItem {
+export interface Item {
     id: string;
     count: number;
 }

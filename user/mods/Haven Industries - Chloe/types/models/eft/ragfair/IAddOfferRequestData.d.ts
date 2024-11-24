@@ -2,9 +2,9 @@ export interface IAddOfferRequestData {
     Action: string;
     sellInOnePiece: boolean;
     items: string[];
-    requirements: IRequirement[];
+    requirements: Requirement[];
 }
-export interface IRequirement {
+export interface Requirement {
     _tpl: string;
     count: number;
     level: number;

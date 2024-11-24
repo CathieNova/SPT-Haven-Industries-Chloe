@@ -9,11 +9,5 @@ export interface IItemConfig extends IBaseConfig {
     rewardItemBlacklist: string[];
     /** Items that can only be found on bosses */
     bossItems: string[];
-    handbookPriceOverride: Record<string, IHandbookPriceOverride>;
-}
-export interface IHandbookPriceOverride {
-    /** Price in roubles */
-    price: number;
-    /** NOT parentId from items.json, but handbook.json */
-    parentId: string;
+    handbookPriceOverride: Record<string, number>;
 }

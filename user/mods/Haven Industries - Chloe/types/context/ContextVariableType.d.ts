@@ -3,11 +3,9 @@ export declare enum ContextVariableType {
     SESSION_ID = 0,
     /** Currently acive raid information */
     RAID_CONFIGURATION = 1,
-    /** SessionID + Timestamp when client first connected, has _ between values */
+    /** Timestamp when client first connected */
     CLIENT_START_TIMESTAMP = 2,
     /** When player is loading into map and loot is requested */
     REGISTER_PLAYER_REQUEST = 3,
-    RAID_ADJUSTMENTS = 4,
-    /** Data returned from client request object from endLocalRaid() */
-    TRANSIT_INFO = 5
+    RAID_ADJUSTMENTS = 4
 }

@@ -6,9 +6,9 @@ export interface IProcessBuyTradeRequestData extends IProcessBaseTradeRequestDat
     item_id: string;
     count: number;
     scheme_id: number;
-    scheme_items: ISchemeItem[];
+    scheme_items: SchemeItem[];
 }
-export interface ISchemeItem {
+export interface SchemeItem {
     /** Id of stack to take money from, is money tpl when Action is `SptInsure` */
     id: string;
     count: number;

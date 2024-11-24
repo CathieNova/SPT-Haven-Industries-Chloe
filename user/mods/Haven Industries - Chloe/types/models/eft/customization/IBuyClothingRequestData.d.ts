@@ -1,9 +1,9 @@
 export interface IBuyClothingRequestData {
     Action: "CustomizationBuy";
     offer: string;
-    items: IPaymentItemForClothing[];
+    items: ClothingItem[];
 }
-export interface IPaymentItemForClothing {
+export interface ClothingItem {
     del: boolean;
     id: string;
     count: number;

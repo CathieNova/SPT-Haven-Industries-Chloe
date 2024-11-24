@@ -82,7 +82,6 @@
       "Started": [],
       "Success": [
         {
-          "availableInGameEditions": [],
           "id": "6737d4a3a35705f5cf964828",
           "index": 0,
           "type": "Experience",
@@ -90,7 +89,6 @@
           "unknown": false
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a377e30658687c55b2",
           "index": 1,
           "target":"673ace38260ffaa1bd63046f",
@@ -99,7 +97,6 @@
           "unknown": false
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a3078c6ebd1af577ef",
           "index": 2,
           "items": [
@@ -115,7 +112,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a3583729098e593ab7",
           "index": 3,
           "items": [
@@ -131,7 +127,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a3ca2020d406430f85",
           "index": 4,
           "items": [
@@ -147,7 +142,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a3ec9cad43c3e90680",
           "index": 5,
           "items": [
@@ -163,7 +157,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6737d4a33f748dd5f376e699",
           "index": 6,
           "items": [

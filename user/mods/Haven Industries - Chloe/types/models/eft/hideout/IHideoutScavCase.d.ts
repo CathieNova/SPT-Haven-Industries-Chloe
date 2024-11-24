@@ -2,16 +2,16 @@ import { MinMax } from "@spt/models/common/MinMax";
 export interface IHideoutScavCase {
     _id: string;
     ProductionTime: number;
-    Requirements: IRequirement[];
-    EndProducts: IEndProducts;
+    Requirements: Requirement[];
+    EndProducts: EndProducts;
 }
-export interface IRequirement {
+export interface Requirement {
     templateId: string;
     count: number;
     isFunctional: boolean;
     type: string;
 }
-export interface IEndProducts {
+export interface EndProducts {
     Common: MinMax;
     Rare: MinMax;
     Superrare: MinMax;

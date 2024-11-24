@@ -1,25 +1,25 @@
 export interface ISettingsBase {
-    config: IConfig;
+    config: Config;
 }
-export interface IConfig {
+export interface Config {
     AFKTimeoutSeconds: number;
     AdditionalRandomDelaySeconds: number;
     ClientSendRateLimit: number;
     CriticalRetriesCount: number;
     DefaultRetriesCount: number;
     FirstCycleDelaySeconds: number;
-    FramerateLimit: IFramerateLimit;
+    FramerateLimit: FramerateLimit;
     GroupStatusInterval: number;
     GroupStatusButtonInterval: number;
     KeepAliveInterval: number;
     LobbyKeepAliveInterval: number;
     Mark502and504AsNonImportant: boolean;
-    MemoryManagementSettings: IMemoryManagementSettings;
+    MemoryManagementSettings: MemoryManagementSettings;
     NVidiaHighlights: boolean;
     NextCycleDelaySeconds: number;
     PingServerResultSendInterval: number;
     PingServersInterval: number;
-    ReleaseProfiler: IReleaseProfiler;
+    ReleaseProfiler: ReleaseProfiler;
     RequestConfirmationTimeouts: number[];
     RequestsMadeThroughLobby: string[];
     SecondCycleDelaySeconds: number;
@@ -30,12 +30,12 @@ export interface IConfig {
     NetworkStateView: INetworkStateView;
     WsReconnectionDelays: string[];
 }
-export interface IFramerateLimit {
+export interface FramerateLimit {
     MaxFramerateGameLimit: number;
     MaxFramerateLobbyLimit: number;
     MinFramerateLimit: number;
 }
-export interface IMemoryManagementSettings {
+export interface MemoryManagementSettings {
     AggressiveGC: boolean;
     GigabytesRequiredToDisableGCDuringRaid: number;
     HeapPreAllocationEnabled: boolean;
@@ -43,7 +43,7 @@ export interface IMemoryManagementSettings {
     OverrideRamCleanerSettings: boolean;
     RamCleanerEnabled: boolean;
 }
-export interface IReleaseProfiler {
+export interface ReleaseProfiler {
     Enabled: boolean;
     MaxRecords: number;
     RecordTriggerValue: number;

@@ -1,45 +1,45 @@
 export interface IBotDurability {
-    default: IDefaultDurability;
-    pmc: IPmcDurability;
-    boss: IBotDurability;
-    follower: IBotDurability;
-    assault: IBotDurability;
-    cursedassault: IBotDurability;
-    marksman: IBotDurability;
-    pmcbot: IBotDurability;
-    arenafighterevent: IBotDurability;
-    arenafighter: IBotDurability;
-    crazyassaultevent: IBotDurability;
-    exusec: IBotDurability;
-    gifter: IBotDurability;
-    sectantpriest: IBotDurability;
-    sectantwarrior: IBotDurability;
+    default: DefaultDurability;
+    pmc: PmcDurability;
+    boss: BotDurability;
+    follower: BotDurability;
+    assault: BotDurability;
+    cursedassault: BotDurability;
+    marksman: BotDurability;
+    pmcbot: BotDurability;
+    arenafighterevent: BotDurability;
+    arenafighter: BotDurability;
+    crazyassaultevent: BotDurability;
+    exusec: BotDurability;
+    gifter: BotDurability;
+    sectantpriest: BotDurability;
+    sectantwarrior: BotDurability;
 }
 /** Durability values to be used when a more specific bot type cant be found */
-export interface IDefaultDurability {
-    armor: IArmorDurability;
-    weapon: IWeaponDurability;
+export interface DefaultDurability {
+    armor: ArmorDurability;
+    weapon: WeaponDurability;
 }
-export interface IPmcDurability {
-    armor: IPmcDurabilityArmor;
-    weapon: IWeaponDurability;
+export interface PmcDurability {
+    armor: PmcDurabilityArmor;
+    weapon: WeaponDurability;
 }
-export interface IPmcDurabilityArmor {
+export interface PmcDurabilityArmor {
     lowestMaxPercent: number;
     highestMaxPercent: number;
     maxDelta: number;
     minDelta: number;
 }
-export interface IBotDurability {
-    armor: IArmorDurability;
-    weapon: IWeaponDurability;
+export interface BotDurability {
+    armor: ArmorDurability;
+    weapon: WeaponDurability;
 }
-export interface IArmorDurability {
+export interface ArmorDurability {
     maxDelta: number;
     minDelta: number;
     minLimitPercent: number;
 }
-export interface IWeaponDurability {
+export interface WeaponDurability {
     lowestMax: number;
     highestMax: number;
     maxDelta: number;

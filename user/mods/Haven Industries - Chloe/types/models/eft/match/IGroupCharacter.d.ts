@@ -1,4 +1,4 @@
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { MemberCategory } from "@spt/models/enums/MemberCategory";
 export interface IGroupCharacter {
     _id: string;
@@ -29,7 +29,7 @@ export interface IGroupCharacter {
         };
         Equipment: {
             Id: string;
-            Items: IItem[];
+            Items: Item[];
         };
     };
     isLeader: boolean;

@@ -166,7 +166,6 @@
       "Started": [],
       "Success": [
         {
-          "availableInGameEditions": [],
           "value": 25000,
           "id": "6738d0d503f3d75d3d118c4a",
           "type": "Experience",
@@ -174,7 +173,6 @@
           "index": 0
         },
         {
-          "availableInGameEditions": [],
           "value": 0.1,
           "id": "6738d0d77d67a86df48e4df4",
           "type": "TraderStanding",
@@ -183,7 +181,6 @@
           "index": 1
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "6738d0dbf33f7c1933d9af93",
           "index": 2,
@@ -202,7 +199,6 @@
           "value": "1"
         },
         {
-          "availableInGameEditions": [],
           "id": "6738d0e07acda9bea8201653",
           "index": 3,
           "target": "Charisma",

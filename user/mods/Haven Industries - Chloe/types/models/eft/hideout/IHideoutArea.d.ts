@@ -1,4 +1,3 @@
-import { IRequirementBase } from "@spt/models/eft/hideout/IHideoutProduction";
 import { BonusSkillType } from "@spt/models/enums/BonusSkillType";
 import { BonusType } from "@spt/models/enums/BonusType";
 export interface IHideoutArea {
@@ -12,16 +11,16 @@ export interface IHideoutArea {
     displayLevel: boolean;
     enableAreaRequirements: boolean;
     parentArea?: string;
-    stages: Record<string, IStage>;
+    stages: Record<string, Stage>;
 }
 export interface IAreaRequirement {
     areaType: number;
     requiredlevel: number;
     type: string;
 }
-export interface IStage {
+export interface Stage {
     autoUpgrade: boolean;
-    bonuses: IStageBonus[];
+    bonuses: StageBonus[];
     constructionTime: number;
     /** Containers inventory tpl */
     container?: string;
@@ -51,19 +50,20 @@ export interface IStageImprovementRequirement {
     templateId: string;
     type: string;
 }
-export interface IStageRequirement extends IRequirementBase {
+export interface IStageRequirement {
     areaType?: number;
     requiredLevel?: number;
+    type: string;
     templateId?: string;
     count?: number;
-    isEncoded?: false;
+    isEncoded: false;
     isFunctional?: boolean;
     traderId?: string;
     loyaltyLevel?: number;
     skillName?: string;
     skillLevel?: number;
 }
-export interface IStageBonus {
+export interface StageBonus {
     value: number;
     passive: boolean;
     production: boolean;

@@ -86,7 +86,6 @@
     "rewards": {
       "Success": [
         {
-          "availableInGameEditions": [],
           "value": 7940,
           "id": "6736a0c2f4e7aaab3aaebb2b",
           "type": "Experience",
@@ -94,7 +93,6 @@
           "index": 0
         },
         {
-          "availableInGameEditions": [],
           "value": 0.02,
           "id": "6736a0c249e9828cbdf81af4",
           "type": "TraderStanding",
@@ -103,7 +101,6 @@
           "index": 1
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c2bf572d60f6c7779f",
           "index": 2,
           "target": "Search",
@@ -112,7 +109,6 @@
           "value": 100
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c240f98a1fca16ff00",
           "index": 3,
           "items": [
@@ -128,7 +124,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c21bbf26b6bf70a13f",
           "index": 4,
           "items": [
@@ -144,7 +139,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c2117dfdc3072e029a",
           "index": 5,
           "items": [
@@ -160,7 +154,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c2d0c3537473108c79",
           "index": 6,
           "items": [
@@ -176,7 +169,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "6736a0c2e93c912fac76ae36",
           "index": 7,
           "items": [

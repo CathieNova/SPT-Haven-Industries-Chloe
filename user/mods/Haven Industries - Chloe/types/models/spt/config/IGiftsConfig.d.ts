@@ -1,4 +1,4 @@
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { IUserDialogInfo } from "@spt/models/eft/profile/ISptProfile";
 import { GiftSenderType } from "@spt/models/enums/GiftSenderType";
 import { SeasonalEventType } from "@spt/models/enums/SeasonalEventType";
@@ -7,11 +7,11 @@ import { IBaseConfig } from "@spt/models/spt/config/IBaseConfig";
 import { IProfileChangeEvent } from "@spt/models/spt/dialog/ISendMessageDetails";
 export interface IGiftsConfig extends IBaseConfig {
     kind: "spt-gifts";
-    gifts: Record<string, IGift>;
+    gifts: Record<string, Gift>;
 }
-export interface IGift {
+export interface Gift {
     /** Items to send to player */
-    items: IItem[];
+    items: Item[];
     /** Who is sending the gift to player */
     sender: GiftSenderType;
     /** Optinal - supply a users id to send from, not necessary when sending from SYSTEM or TRADER */

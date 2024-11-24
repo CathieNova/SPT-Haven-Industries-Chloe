@@ -14,7 +14,7 @@ import { ImageRouter } from "@spt/routers/ImageRouter";
 import { ConfigServer } from "@spt/servers/ConfigServer";
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
 import { ITraderAssort, ITraderBase } from "@spt/models/eft/common/tables/ITrader";
-import { ITraderConfig, IUpdateTime } from "@spt/models/spt/config/ITraderConfig";
+import { ITraderConfig, UpdateTime } from "@spt/models/spt/config/ITraderConfig";
 import { JsonUtil } from "@spt/utils/JsonUtil";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { IRagfairConfig } from "@spt/models/spt/config/IRagfairConfig";
@@ -63,7 +63,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.itemHelper = container.resolve<ItemHelper>("ItemHelper");
         
         this.getVersionFromJson();
-        this.displayCreditBanner();
+        //this.displayCreditBanner();
 
         this.registerProfileImage(PreSptModLoader, imageRouter);
         Traders[baseJson._id] = baseJson._id
@@ -90,7 +90,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
 
         this.addTraderToLocales(tables, baseJson.name, "Chloe", baseJson.nickname, baseJson.location, "The well loved Receptionist at the Cultist Hideout, Chloe is always ruthless in her pursuit of the best deals as she deals with anyone regardless.");
         this.ragfairConfig.traders[baseJson._id] = true;
-        this.customHideoutCraftService.postDBLoad();
+        this.customHideoutCraftService.postDBLoad(container);
         this.customProfileEdition.postDBLoad(container);
         
         this.adjustItemProperties(tables.templates.items);
@@ -105,7 +105,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
 
     private setupTraderUpdateTime(traderConfig: ITraderConfig): void
     {
-        const traderRefreshRecord: IUpdateTime = {
+        const traderRefreshRecord: UpdateTime = {
             traderId: baseJson._id,
             seconds: {min: 3000, max: 9000},
         };
@@ -288,7 +288,6 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
 
     private displayCreditBanner(): void 
     {
-        this.colorLog(`[${this.modName}] ██████████████████████████████████████████████████████████████████████`, "brightGreen");
         this.colorLog(`[${this.modName}]           _______           _______  _       `, "brightMagenta");
         this.colorLog(`[${this.modName}] |\\     /|(  ___  )|\\     /|(  ____ \\( (    /|`, "brightMagenta");
         this.colorLog(`[${this.modName}] | )   ( || (   ) || )   ( || (    \\/|  \\  ( |`, "brightMagenta");
@@ -298,10 +297,6 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.colorLog(`[${this.modName}] | )   ( || )   ( |  \\   /  | (____/\\| )  \\  |`, "brightMagenta");
         this.colorLog(`[${this.modName}] |/     \\||/     \\|   \\_/   (_______/|/    \\_)`, "brightMagenta");
         this.colorLog(`[${this.modName}]                                             `, "brightMagenta");
-        this.colorLog(`[${this.modName}]   ------------------------------------------------------------------------`, "brightGreen");
-        this.colorLog(`[${this.modName}]                   Alpha Development Build!         `, "brightYellow");
-        this.colorLog(`[${this.modName}]   ------------------------------------------------------------------------`, "brightGreen");
-        this.colorLog(`[${this.modName}] ██████████████████████████████████████████████████████████████████████`, "brightGreen");
     }
 }
 module.exports = { mod: new SampleTrader() }

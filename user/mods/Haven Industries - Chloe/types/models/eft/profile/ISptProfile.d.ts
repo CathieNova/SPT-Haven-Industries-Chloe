@@ -1,26 +1,26 @@
 import { IPmcData } from "@spt/models/eft/common/IPmcData";
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { EquipmentBuildType } from "@spt/models/enums/EquipmentBuildType";
 import { MemberCategory } from "@spt/models/enums/MemberCategory";
 import { MessageType } from "@spt/models/enums/MessageType";
 import { IProfileChangeEvent } from "@spt/models/spt/dialog/ISendMessageDetails";
 export interface ISptProfile {
     info: Info;
-    characters: ICharacters;
+    characters: Characters;
     /** Clothing purchases */
     suits: string[];
     userbuilds: IUserBuilds;
-    dialogues: Record<string, IDialogue>;
-    spt: ISpt;
-    vitality: IVitality;
-    inraid: IInraid;
-    insurance: IInsurance[];
+    dialogues: Record<string, Dialogue>;
+    spt: Spt;
+    vitality: Vitality;
+    inraid: Inraid;
+    insurance: Insurance[];
     /** Assort purchases made by player since last trader refresh */
-    traderPurchases?: Record<string, Record<string, ITraderPurchaseData>>;
+    traderPurchases?: Record<string, Record<string, TraderPurchaseData>>;
     /** Achievements earned by player */
     achievements: Record<string, number>;
 }
-export declare class ITraderPurchaseData {
+export declare class TraderPurchaseData {
     count: number;
     purchaseTimestamp: number;
 }
@@ -34,7 +34,7 @@ export interface Info {
     wipe: boolean;
     edition: string;
 }
-export interface ICharacters {
+export interface Characters {
     pmc: IPmcData;
     scav: IPmcData;
 }
@@ -50,11 +50,11 @@ export interface IUserBuild {
 }
 export interface IWeaponBuild extends IUserBuild {
     Root: string;
-    Items: IItem[];
+    Items: Item[];
 }
 export interface IEquipmentBuild extends IUserBuild {
     Root: string;
-    Items: IItem[];
+    Items: Item[];
     BuildType: EquipmentBuildType;
 }
 export interface IMagazineBuild extends IUserBuild {
@@ -69,18 +69,18 @@ export interface IMagazineTemplateAmmoItem {
 }
 /** Used by defaultEquipmentPresets.json */
 export interface IDefaultEquipmentPreset extends IUserBuild {
-    Items: IItem[];
+    Items: Item[];
     Root: string;
     BuildType: EquipmentBuildType;
     type: string;
 }
-export interface IDialogue {
+export interface Dialogue {
     attachmentsNew: number;
     new: number;
     type: MessageType;
     Users?: IUserDialogInfo[];
     pinned: boolean;
-    messages: IMessage[];
+    messages: Message[];
     _id: string;
 }
 export interface IUserDialogInfo {
@@ -95,16 +95,16 @@ export interface IUserDialogDetails {
     MemberCategory: MemberCategory;
     SelectedMemberCategory: MemberCategory;
 }
-export interface IDialogueInfo {
+export interface DialogueInfo {
     attachmentsNew: number;
     new: number;
     _id: string;
     type: MessageType;
     pinned: boolean;
     Users?: IUserDialogInfo[];
-    message: IMessagePreview;
+    message: MessagePreview;
 }
-export interface IMessage {
+export interface Message {
     _id: string;
     uid: string;
     type: MessageType;
@@ -116,7 +116,7 @@ export interface IMessage {
     replyTo?: IReplyTo;
     hasRewards?: boolean;
     rewardCollected: boolean;
-    items?: IMessageItems;
+    items?: MessageItems;
     maxStorageTime?: number;
     systemData?: ISystemData;
     profileChangeEvents?: IProfileChangeEvent[];
@@ -128,7 +128,7 @@ export interface IReplyTo {
     dt: number;
     text?: string;
 }
-export interface IMessagePreview {
+export interface MessagePreview {
     uid: string;
     type: MessageType;
     dt: number;
@@ -136,9 +136,9 @@ export interface IMessagePreview {
     text?: string;
     systemData?: ISystemData;
 }
-export interface IMessageItems {
+export interface MessageItems {
     stash?: string;
-    data?: IItem[];
+    data?: Item[];
 }
 export interface ISystemData {
     date?: string;
@@ -156,37 +156,39 @@ export interface IUpdatableChatMember {
     Ignored: boolean;
     Banned: boolean;
 }
-export interface ISpt {
+export interface DateTime {
+    date: string;
+    time: string;
+}
+export interface Spt {
     /** What version of SPT was this profile made with */
     version: string;
     /** What mods has this profile loaded at any point in time */
-    mods?: IModDetails[];
+    mods?: ModDetails[];
     /** What gifts has this profile received and how many */
-    receivedGifts?: IReceivedGift[];
+    receivedGifts: ReceivedGift[];
     /** item TPLs blacklisted from being sold on flea for this profile */
     blacklistedItemTpls?: string[];
     /** key: daily type */
-    freeRepeatableRefreshUsedCount?: Record<string, number>;
-    /** When was a profile migrated, value is timestamp */
-    migrations?: Record<string, number>;
+    freeRepeatableRefreshUsedCount: Record<string, number>;
 }
-export interface IModDetails {
+export interface ModDetails {
     name: string;
     version: string;
     author: string;
     dateAdded: number;
     url: string;
 }
-export interface IReceivedGift {
+export interface ReceivedGift {
     giftId: string;
     timestampLastAccepted: number;
     current: number;
 }
-export interface IVitality {
-    health: IHealth;
-    effects: IEffects;
+export interface Vitality {
+    health: Health;
+    effects: Effects;
 }
-export interface IHealth {
+export interface Health {
     Hydration: number;
     Energy: number;
     Temperature: number;
@@ -198,44 +200,44 @@ export interface IHealth {
     LeftLeg: number;
     RightLeg: number;
 }
-export interface IEffects {
-    Head: IHead;
-    Chest: IChest;
-    Stomach: IStomach;
-    LeftArm: ILeftArm;
-    RightArm: IRightArm;
-    LeftLeg: ILeftLeg;
-    RightLeg: IRightLeg;
+export interface Effects {
+    Head: Head;
+    Chest: Chest;
+    Stomach: Stomach;
+    LeftArm: LeftArm;
+    RightArm: RightArm;
+    LeftLeg: LeftLeg;
+    RightLeg: RightLeg;
 }
-export type IHead = {};
-export type IChest = {};
-export type IStomach = {};
-export interface ILeftArm {
+export type Head = {};
+export type Chest = {};
+export type Stomach = {};
+export interface LeftArm {
     Fracture?: number;
 }
-export interface IRightArm {
+export interface RightArm {
     Fracture?: number;
 }
-export interface ILeftLeg {
+export interface LeftLeg {
     Fracture?: number;
 }
-export interface IRightLeg {
+export interface RightLeg {
     Fracture?: number;
 }
-export interface IInraid {
+export interface Inraid {
     location: string;
     character: string;
 }
-export interface IInsurance {
+export interface Insurance {
     scheduledTime: number;
     traderId: string;
     maxStorageTime: number;
     systemData: ISystemData;
     messageType: MessageType;
     messageTemplateId: string;
-    items: IItem[];
+    items: Item[];
 }
-export interface IMessageContentRagfair {
+export interface MessageContentRagfair {
     offerId: string;
     count: number;
     handbookId: string;

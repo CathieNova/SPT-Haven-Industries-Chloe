@@ -1,4 +1,4 @@
-import { ISpawnpointTemplate } from "@spt/models/eft/common/ILooseLoot";
+import { SpawnpointTemplate } from "@spt/models/eft/common/ILooseLoot";
 
 /* eslint-disable @typescript-eslint/naming-convention */
 export interface CombinedConfigItem 
@@ -67,10 +67,10 @@ export interface ConfigItem
         compatibleGeneratorStages: number[];
         addQuestItemLocation: boolean;
         QuestMapLocation: string;
-        StaticQuestLootLocations: ISpawnpointTemplate[];
+        StaticQuestLootLocations: SpawnpointTemplate[];
         addLooseItemLocations: boolean;
         LooseLootMapLocations: string[];
-        StaticLooseLootLocations: ISpawnpointTemplate[];
+        StaticLooseLootLocations: SpawnpointTemplate[];
     };
 };
 

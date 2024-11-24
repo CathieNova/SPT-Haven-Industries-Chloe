@@ -3,9 +3,9 @@ export interface IOpenRandomLootContainerRequestData extends IInventoryBaseActio
     Action: "OpenRandomLootContainer";
     /** Container item id being opened */
     item: string;
-    to: ITo[];
+    to: To[];
 }
-export interface ITo {
+export interface To {
     /** Player character (pmc/scav) id items will be sent to */
     id: string;
 }

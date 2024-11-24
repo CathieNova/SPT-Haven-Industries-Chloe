@@ -2,9 +2,9 @@ import { IInventoryBaseActionRequestData } from "@spt/models/eft/inventory/IInve
 export interface IInventoryCreateMarkerRequestData extends IInventoryBaseActionRequestData {
     Action: "CreateMapMarker";
     item: string;
-    mapMarker: IMapMarker;
+    mapMarker: MapMarker;
 }
-export interface IMapMarker {
+export interface MapMarker {
     Type: string;
     X: number;
     Y: number;

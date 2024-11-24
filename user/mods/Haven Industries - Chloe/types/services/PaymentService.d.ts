@@ -4,7 +4,7 @@ import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { PaymentHelper } from "@spt/helpers/PaymentHelper";
 import { TraderHelper } from "@spt/helpers/TraderHelper";
 import { IPmcData } from "@spt/models/eft/common/IPmcData";
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { IItemEventRouterResponse } from "@spt/models/eft/itemEvent/IItemEventRouterResponse";
 import { IProcessBuyTradeRequestData } from "@spt/models/eft/trade/IProcessBuyTradeRequestData";
 import { IProcessSellTradeRequestData } from "@spt/models/eft/trade/IProcessSellTradeRequestData";
@@ -60,14 +60,13 @@ export declare class PaymentService {
      */
     addPaymentToOutput(pmcData: IPmcData, currencyTpl: string, amountToPay: number, sessionID: string, output: IItemEventRouterResponse): void;
     /**
-     * TODO - ensure money in containers inside secure container are LAST
      * Get all money stacks in inventory and prioritise items in stash
-     * @param pmcData Player profile
+     * @param pmcData
      * @param currencyTpl
      * @param playerStashId Players stash id
      * @returns Sorting money items
      */
-    protected getSortedMoneyItemsInInventory(pmcData: IPmcData, currencyTpl: string, playerStashId: string): IItem[];
+    protected getSortedMoneyItemsInInventory(pmcData: IPmcData, currencyTpl: string, playerStashId: string): Item[];
     /**
      * Prioritise player stash first over player inventory
      * Post-raid healing would often take money out of the players pockets/secure container
@@ -77,7 +76,7 @@ export declare class PaymentService {
      * @param playerStashId Players stash id
      * @returns sort order
      */
-    protected prioritiseStashSort(a: IItem, b: IItem, inventoryItems: IItem[], playerStashId: string): number;
+    protected prioritiseStashSort(a: Item, b: Item, inventoryItems: Item[], playerStashId: string): number;
     /**
      * Recursivly check items parents to see if it is inside the players inventory, not stash
      * @param itemId item id to check
@@ -85,5 +84,5 @@ export declare class PaymentService {
      * @param playerStashId Players stash id
      * @returns true if its in inventory
      */
-    protected isInStash(itemId: string | undefined, inventoryItems: IItem[], playerStashId: string): boolean;
+    protected isInStash(itemId: string | undefined, inventoryItems: Item[], playerStashId: string): boolean;
 }

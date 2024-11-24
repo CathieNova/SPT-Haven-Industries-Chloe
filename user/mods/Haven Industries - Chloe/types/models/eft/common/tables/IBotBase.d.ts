@@ -1,4 +1,4 @@
-import { IItem, IUpd } from "@spt/models/eft/common/tables/IItem";
+import { Item, Upd } from "@spt/models/eft/common/tables/IItem";
 import { IPmcDataRepeatableQuest } from "@spt/models/eft/common/tables/IRepeatableQuests";
 import { IRagfairOffer } from "@spt/models/eft/ragfair/IRagfairOffer";
 import { BonusSkillType } from "@spt/models/enums/BonusSkillType";
@@ -12,30 +12,29 @@ export interface IBotBase {
     /** SPT property - use to store player id - TODO - move to AID ( account id as guid of choice) */
     sessionId: string;
     savage?: string;
-    karmaValue: number;
-    Info: IInfo;
-    Customization: ICustomization;
-    Health: IHealth;
-    Inventory: IInventory;
-    Skills: ISkills;
-    Stats: IStats;
+    Info: Info;
+    Customization: Customization;
+    Health: Health;
+    Inventory: Inventory;
+    Skills: Skills;
+    Stats: Stats;
     Encyclopedia: Record<string, boolean>;
     TaskConditionCounters: Record<string, ITaskConditionCounter>;
-    InsuredItems: IInsuredItem[];
-    Hideout: IHideout;
+    InsuredItems: InsuredItem[];
+    Hideout: Hideout;
     Quests: IQuestStatus[];
-    TradersInfo: Record<string, ITraderInfo>;
+    TradersInfo: Record<string, TraderInfo>;
     UnlockedInfo: IUnlockedInfo;
-    RagfairInfo: IRagfairInfo;
+    RagfairInfo: RagfairInfo;
     /** Achievement id and timestamp */
     Achievements: Record<string, number>;
     RepeatableQuests: IPmcDataRepeatableQuest[];
-    Bonuses: IBonus[];
-    Notes: INotes;
+    Bonuses: Bonus[];
+    Notes: Notes;
     CarExtractCounts: Record<string, number>;
     CoopExtractCounts: Record<string, number>;
     SurvivorClass: SurvivorClass;
-    WishList: Record<string, number>;
+    WishList: string[];
     moneyTransferLimitData: IMoneyTransferLimits;
     /** SPT specific property used during bot generation in raid */
     sptIsPmc?: boolean;
@@ -57,14 +56,13 @@ export interface ITaskConditionCounter {
 export interface IUnlockedInfo {
     unlockedProductionRecipe: string[];
 }
-export interface IInfo {
+export interface Info {
     EntryPoint: string;
     Nickname: string;
     LowerNickname: string;
     Side: string;
     SquadInviteRestriction: boolean;
     HasCoopExtension: boolean;
-    HasPveGame: boolean;
     Voice: string;
     Level: number;
     Experience: number;
@@ -72,28 +70,27 @@ export interface IInfo {
     GameVersion: string;
     AccountType: number;
     MemberCategory: MemberCategory;
-    SelectedMemberCategory: MemberCategory;
     lockedMoveCommands: boolean;
     SavageLockTime: number;
     LastTimePlayedAsSavage: number;
-    Settings: IBotInfoSettings;
+    Settings: Settings;
     NicknameChangeDate: number;
     NeedWipeOptions: any[];
-    lastCompletedWipe: ILastCompleted;
+    lastCompletedWipe: LastCompleted;
     Bans: IBan[];
     BannedState: boolean;
     BannedUntil: number;
     IsStreamerModeAvailable: boolean;
-    lastCompletedEvent?: ILastCompleted;
+    lastCompletedEvent?: LastCompleted;
+    SelectedMemberCategory: number;
     isMigratedSkills: boolean;
 }
-export interface IBotInfoSettings {
+export interface Settings {
     Role: string;
     BotDifficulty: string;
     Experience: number;
     StandingForKill: number;
     AggressorBonus: number;
-    UseSimpleAnimator: boolean;
 }
 export interface IBan {
     banType: BanType;
@@ -108,43 +105,42 @@ export declare enum BanType {
     FRIENDS = 5,
     CHANGE_NICKNAME = 6
 }
-export interface ICustomization {
+export interface Customization {
     Head: string;
     Body: string;
     Feet: string;
     Hands: string;
 }
-export interface IHealth {
-    Hydration: ICurrentMax;
-    Energy: ICurrentMax;
-    Temperature: ICurrentMax;
-    BodyParts: IBodyPartsHealth;
+export interface Health {
+    Hydration: CurrentMax;
+    Energy: CurrentMax;
+    Temperature: CurrentMax;
+    BodyParts: BodyPartsHealth;
     UpdateTime: number;
     Immortal?: boolean;
 }
-export interface IBodyPartsHealth {
-    Head: IBodyPartHealth;
-    Chest: IBodyPartHealth;
-    Stomach: IBodyPartHealth;
-    LeftArm: IBodyPartHealth;
-    RightArm: IBodyPartHealth;
-    LeftLeg: IBodyPartHealth;
-    RightLeg: IBodyPartHealth;
+export interface BodyPartsHealth {
+    Head: BodyPartHealth;
+    Chest: BodyPartHealth;
+    Stomach: BodyPartHealth;
+    LeftArm: BodyPartHealth;
+    RightArm: BodyPartHealth;
+    LeftLeg: BodyPartHealth;
+    RightLeg: BodyPartHealth;
 }
-export interface IBodyPartHealth {
-    Health: ICurrentMax;
-    Effects?: Record<string, IBodyPartEffectProperties>;
+export interface BodyPartHealth {
+    Health: CurrentMax;
+    Effects?: Record<string, BodyPartEffectProperties>;
 }
-export interface IBodyPartEffectProperties {
-    ExtraData?: any;
+export interface BodyPartEffectProperties {
     Time: number;
 }
-export interface ICurrentMax {
+export interface CurrentMax {
     Current: number;
     Maximum: number;
 }
-export interface IInventory {
-    items: IItem[];
+export interface Inventory {
+    items: Item[];
     equipment: string;
     stash: string;
     sortingTable: string;
@@ -153,16 +149,16 @@ export interface IInventory {
     /** Key is hideout area enum numeric as string e.g. "24", value is area _id  */
     hideoutAreaStashes: Record<string, string>;
     fastPanel: Record<string, string>;
-    favoriteItems: IItem[];
+    favoriteItems: string[];
 }
 export interface IBaseJsonSkills {
     Common: Record<string, Common>;
-    Mastering: Record<string, IMastering>;
+    Mastering: Record<string, Mastering>;
     Points: number;
 }
-export interface ISkills {
+export interface Skills {
     Common: Common[];
-    Mastering: IMastering[];
+    Mastering: Mastering[];
     Points: number;
 }
 export interface IBaseSkill {
@@ -175,26 +171,26 @@ export interface Common extends IBaseSkill {
     PointsEarnedDuringSession?: number;
     LastAccess?: number;
 }
-export interface IMastering extends IBaseSkill {
+export interface Mastering extends IBaseSkill {
 }
-export interface IStats {
+export interface Stats {
     Eft?: IEftStats;
 }
 export interface IEftStats {
     CarriedQuestItems: string[];
-    Victims: IVictim[];
+    Victims: Victim[];
     TotalSessionExperience: number;
     LastSessionDate: number;
-    SessionCounters: ISessionCounters;
-    OverallCounters: IOverallCounters;
+    SessionCounters: SessionCounters;
+    OverallCounters: OverallCounters;
     SessionExperienceMult?: number;
     ExperienceBonusMult?: number;
-    Aggressor?: IAggressor;
+    Aggressor?: Aggressor;
     DroppedItems?: IDroppedItem[];
-    FoundInRaidItems?: IFoundInRaidItem[];
-    DamageHistory?: IDamageHistory;
-    DeathCause?: IDeathCause;
-    LastPlayerState?: ILastPlayerState;
+    FoundInRaidItems?: FoundInRaidItem[];
+    DamageHistory?: DamageHistory;
+    DeathCause?: DeathCause;
+    LastPlayerState?: LastPlayerState;
     TotalInGameTime: number;
     SurvivorClass?: string;
     sptLastRaidFenceRepChange?: number;
@@ -204,11 +200,11 @@ export interface IDroppedItem {
     ItemId: string;
     ZoneId: string;
 }
-export interface IFoundInRaidItem {
+export interface FoundInRaidItem {
     QuestId: string;
     ItemId: string;
 }
-export interface IVictim {
+export interface Victim {
     AccountId: string;
     ProfileId: string;
     Name: string;
@@ -219,19 +215,18 @@ export interface IVictim {
     Level: number;
     Weapon: string;
     Role: string;
-    Location: string;
 }
-export interface ISessionCounters {
-    Items: ICounterKeyValue[];
+export interface SessionCounters {
+    Items: CounterKeyValue[];
 }
-export interface IOverallCounters {
-    Items: ICounterKeyValue[];
+export interface OverallCounters {
+    Items: CounterKeyValue[];
 }
-export interface ICounterKeyValue {
+export interface CounterKeyValue {
     Key: string[];
     Value: number;
 }
-export interface IAggressor {
+export interface Aggressor {
     AccountId: string;
     ProfileId: string;
     MainProfileNickname: string;
@@ -242,12 +237,12 @@ export interface IAggressor {
     WeaponName: string;
     Category: string;
 }
-export interface IDamageHistory {
+export interface DamageHistory {
     LethalDamagePart: string;
-    LethalDamage: ILethalDamage;
-    BodyParts: IBodyPartsDamageHistory;
+    LethalDamage: LethalDamage;
+    BodyParts: BodyPartsDamageHistory;
 }
-export interface ILethalDamage {
+export interface LethalDamage {
     Amount: number;
     Type: string;
     SourceId: string;
@@ -255,17 +250,17 @@ export interface ILethalDamage {
     Blunt: boolean;
     ImpactsCount: number;
 }
-export interface IBodyPartsDamageHistory {
-    Head: IDamageStats[];
-    Chest: IDamageStats[];
-    Stomach: IDamageStats[];
-    LeftArm: IDamageStats[];
-    RightArm: IDamageStats[];
-    LeftLeg: IDamageStats[];
-    RightLeg: IDamageStats[];
-    Common: IDamageStats[];
+export interface BodyPartsDamageHistory {
+    Head: DamageStats[];
+    Chest: DamageStats[];
+    Stomach: DamageStats[];
+    LeftArm: DamageStats[];
+    RightArm: DamageStats[];
+    LeftLeg: DamageStats[];
+    RightLeg: DamageStats[];
+    Common: DamageStats[];
 }
-export interface IDamageStats {
+export interface DamageStats {
     Amount: number;
     Type: string;
     SourceId: string;
@@ -273,63 +268,55 @@ export interface IDamageStats {
     Blunt: boolean;
     ImpactsCount: number;
 }
-export interface IDeathCause {
+export interface DeathCause {
     DamageType: string;
     Side: string;
     Role: string;
     WeaponId: string;
 }
-export interface ILastPlayerState {
-    Info: ILastPlayerStateInfo;
+export interface LastPlayerState {
+    Info: LastPlayerStateInfo;
     Customization: Record<string, string>;
     Equipment: any;
 }
-export interface ILastPlayerStateInfo {
+export interface LastPlayerStateInfo {
     Nickname: string;
     Side: string;
     Level: number;
     MemberCategory: MemberCategory;
 }
-export interface IBackendCounter {
+export interface BackendCounter {
     id: string;
     qid?: string;
     value: number;
 }
-export interface IInsuredItem {
+export interface InsuredItem {
     /** Trader Id item was insured by */
     tid: string;
     itemId: string;
 }
-export interface IHideout {
-    Production: Record<string, IProduction>;
-    Areas: IBotHideoutArea[];
-    Improvements: Record<string, IHideoutImprovement>;
-    HideoutCounters: IHideoutCounters;
+export interface Hideout {
+    Production: Record<string, Productive>;
+    Areas: HideoutArea[];
+    Improvement: Record<string, IHideoutImprovement>;
     Seed: number;
-    MannequinPoses: string[];
     sptUpdateLastRunTimestamp: number;
-}
-export interface IHideoutCounters {
-    fuelCounter: number;
-    airFilterCounter: number;
-    waterFilterCounter: number;
-    craftingTimeCounter: number;
 }
 export interface IHideoutImprovement {
     completed: boolean;
     improveCompleteTimestamp: number;
 }
-export interface IProductive {
-    Products: IProduct[];
+export interface Productive {
+    Products: Product[];
     /** Seconds passed of production */
     Progress?: number;
     /** Is craft in some state of being worked on by client (crafting/ready to pick up) */
     inProgress?: boolean;
-    StartTimestamp?: string;
+    StartTimestamp?: number;
     SkipTime?: number;
     /** Seconds needed to fully craft */
     ProductionTime?: number;
-    GivenItemsInStart?: IItem[];
+    GivenItemsInStart?: string[];
     Interrupted?: boolean;
     Code?: string;
     Decoded?: boolean;
@@ -344,23 +331,22 @@ export interface IProductive {
     /** Is the craft a Continuous, e.g bitcoins/water collector */
     sptIsContinuous?: boolean;
     /** Stores a list of tools used in this craft and whether they're FiR, to give back once the craft is done */
-    sptRequiredTools?: IItem[];
-    sptIsCultistCircle?: boolean;
+    sptRequiredTools?: Item[];
 }
-export interface IProduction extends IProductive {
+export interface Production extends Productive {
     RecipeId: string;
-    SkipTime?: number;
-    ProductionTime?: number;
+    SkipTime: number;
+    ProductionTime: number;
 }
-export interface IScavCase extends IProductive {
+export interface ScavCase extends Productive {
     RecipeId: string;
 }
-export interface IProduct {
+export interface Product {
     _id: string;
     _tpl: string;
-    upd?: IUpd;
+    upd?: Upd;
 }
-export interface IBotHideoutArea {
+export interface HideoutArea {
     type: HideoutAreas;
     level: number;
     active: boolean;
@@ -368,25 +354,26 @@ export interface IBotHideoutArea {
     /** Must be integer */
     completeTime: number;
     constructing: boolean;
-    slots: IHideoutSlot[];
+    slots: HideoutSlot[];
     lastRecipe: string;
 }
-export interface IHideoutSlot {
+export interface HideoutSlot {
     /** SPT specific value to keep track of what index this slot is (0,1,2,3 etc) */
     locationIndex: number;
-    item?: IHideoutItem[];
+    item?: HideoutItem[];
 }
-export interface IHideoutItem {
+export interface HideoutItem {
     _id: string;
     _tpl: string;
-    upd?: IUpd;
+    upd?: Upd;
 }
-export interface ILastCompleted {
+export interface LastCompleted {
     $oid: string;
 }
-export interface INotes {
-    Notes: INote[];
+export interface Notes {
+    Notes: Note[];
 }
+export type CarExtractCounts = {};
 export declare enum SurvivorClass {
     UNKNOWN = 0,
     NEUTRALIZER = 1,
@@ -403,20 +390,20 @@ export interface IQuestStatus {
     completedConditions?: string[];
     availableAfter?: number;
 }
-export interface ITraderInfo {
-    loyaltyLevel?: number;
+export interface TraderInfo {
+    loyaltyLevel: number;
     salesSum: number;
     standing: number;
     nextResupply: number;
     unlocked: boolean;
     disabled: boolean;
 }
-export interface IRagfairInfo {
+export interface RagfairInfo {
     rating: number;
     isRatingGrowing: boolean;
     offers: IRagfairOffer[];
 }
-export interface IBonus {
+export interface Bonus {
     id?: string;
     type: BonusType;
     templateId?: string;
@@ -428,7 +415,7 @@ export interface IBonus {
     filter?: string[];
     skillType?: BonusSkillType;
 }
-export interface INote {
+export interface Note {
     Time: number;
     Text: string;
 }

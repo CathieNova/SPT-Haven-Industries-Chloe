@@ -10,7 +10,7 @@ export interface IRepairConfig extends IBaseConfig {
     repairKitIntellectGainMultiplier: IIntellectGainValues;
     maxIntellectGainPerRepair: IMaxIntellectGainValues;
     weaponTreatment: IWeaponTreatmentRepairValues;
-    repairKit: IRepairKit;
+    repairKit: RepairKit;
 }
 export interface IIntellectGainValues {
     weapon: number;
@@ -30,17 +30,17 @@ export interface IWeaponTreatmentRepairValues {
     /** The multiplier used for calculating weapon maintenance XP */
     pointGainMultiplier: number;
 }
-export interface IRepairKit {
-    armor: IBonusSettings;
-    weapon: IBonusSettings;
+export interface RepairKit {
+    armor: BonusSettings;
+    weapon: BonusSettings;
 }
-export interface IBonusSettings {
+export interface BonusSettings {
     rarityWeight: Record<string, number>;
     bonusTypeWeight: Record<string, number>;
-    common: Record<string, IBonusValues>;
-    rare: Record<string, IBonusValues>;
+    common: Record<string, BonusValues>;
+    rare: Record<string, BonusValues>;
 }
-export interface IBonusValues {
+export interface BonusValues {
     valuesMinMax: MinMax;
     /** What dura is buff active between (min max of current max) */
     activeDurabilityPercentMinMax: MinMax;

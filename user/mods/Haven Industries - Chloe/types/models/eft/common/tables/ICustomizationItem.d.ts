@@ -4,10 +4,10 @@ export interface ICustomizationItem {
     _name: string;
     _parent: string;
     _type: string;
-    _props: IProps;
+    _props: Props;
     _proto: string;
 }
-export interface IProps {
+export interface Props {
     Name: string;
     ShortName: string;
     Description: string;
@@ -17,13 +17,13 @@ export interface IProps {
     Body: string;
     Hands: string;
     Feet: string;
-    Prefab: IPrefab;
-    WatchPrefab: IPrefab;
+    Prefab: Prefab;
+    WatchPrefab: Prefab;
     IntegratedArmorVest: boolean;
     WatchPosition: Ixyz;
     WatchRotation: Ixyz;
 }
-export interface IPrefab {
+export interface Prefab {
     path: string;
     rcid: string;
 }

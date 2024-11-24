@@ -155,7 +155,6 @@
       ],
       "Success": [
         {
-          "availableInGameEditions": [],
           "id": "673fceae6ca1ad57fa4c8790",
           "index": 0,
           "type": "Experience",
@@ -163,7 +162,6 @@
           "unknown": false
         },
         {
-          "availableInGameEditions": [],
           "id": "673fceae0387d29c193b54eb",
           "index": 1,
           "target": "673ace38260ffaa1bd63046f",
@@ -172,7 +170,6 @@
           "unknown": false
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "673fceaeb83f63e7defde8ad",
           "index": 2,
@@ -191,7 +188,6 @@
           "unknown": false
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "673fceae820d2cfb00a424a8",
           "index": 3,
@@ -210,7 +206,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "673fceae0782fadeaf0d1f11",
           "index": 4,
@@ -229,7 +224,6 @@
           "unknown": true
         },
         {
-          "availableInGameEditions": [],
           "id": "673fceaebde6b600b1b67aab",
           "index": 5,
           "target": "Endurance",

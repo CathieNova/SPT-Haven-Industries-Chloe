@@ -1,113 +1,99 @@
-export interface IItem {
+export interface Item {
     _id: string;
     _tpl: string;
     parentId?: string;
     slotId?: string;
-    location?: IItemLocation | number;
-    upd?: IUpd;
+    location?: Location | number;
+    upd?: Upd;
 }
-export interface IItemLocation {
-    x: number;
-    y: number;
-    r: string | number;
-    isSearched?: boolean;
-    /** SPT property? */
-    rotation?: string | boolean;
-}
-export interface IUpd {
-    Buff?: IUpdBuff;
+export interface Upd {
+    Buff?: Buff;
     OriginalStackObjectsCount?: number;
-    Togglable?: IUpdTogglable;
-    Map?: IUpdMap;
-    Tag?: IUpdTag;
+    Togglable?: Togglable;
+    Map?: Map;
+    Tag?: Tag;
     /** SPT specific property, not made by BSG */
     sptPresetId?: string;
-    FaceShield?: IUpdFaceShield;
+    FaceShield?: FaceShield;
     StackObjectsCount?: number;
     UnlimitedCount?: boolean;
-    Repairable?: IUpdRepairable;
-    RecodableComponent?: IUpdRecodableComponent;
-    FireMode?: IUpdFireMode;
+    Repairable?: Repairable;
+    RecodableComponent?: RecodableComponent;
+    FireMode?: FireMode;
     SpawnedInSession?: boolean;
-    Light?: IUpdLight;
-    Key?: IUpdKey;
-    Resource?: IUpdResource;
-    Sight?: IUpdSight;
-    MedKit?: IUpdMedKit;
-    FoodDrink?: IUpdFoodDrink;
-    Dogtag?: IUpdDogtag;
+    Light?: Light;
+    Key?: Key;
+    Resource?: Resource;
+    Sight?: Sight;
+    MedKit?: MedKit;
+    FoodDrink?: FoodDrink;
+    Dogtag?: Dogtag;
     BuyRestrictionMax?: number;
     BuyRestrictionCurrent?: number;
-    Foldable?: IUpdFoldable;
-    SideEffect?: IUpdSideEffect;
-    RepairKit?: IUpdRepairKit;
-    CultistAmulet?: IUpdCultistAmulet;
-    PinLockState?: PinLockState;
+    Foldable?: Foldable;
+    SideEffect?: SideEffect;
+    RepairKit?: RepairKit;
+    CultistAmulet?: ICultistAmulet;
 }
-export declare enum PinLockState {
-    FREE = "Free",
-    LOCKED = "Locked",
-    PINNED = "Pinned"
+export interface Buff {
+    rarity: string;
+    buffType: string;
+    value: number;
+    thresholdDurability?: number;
 }
-export interface IUpdBuff {
-    Rarity: string;
-    BuffType: string;
-    Value: number;
-    ThresholdDurability?: number;
-}
-export interface IUpdTogglable {
+export interface Togglable {
     On: boolean;
 }
-export interface IUpdMap {
-    Markers: IMapMarker[];
+export interface Map {
+    Markers: MapMarker[];
 }
-export interface IMapMarker {
+export interface MapMarker {
     X: number;
     Y: number;
 }
-export interface IUpdTag {
+export interface Tag {
     Color: number;
     Name: string;
 }
-export interface IUpdFaceShield {
+export interface FaceShield {
     Hits: number;
 }
-export interface IUpdRepairable {
+export interface Repairable {
     Durability: number;
     MaxDurability: number;
 }
-export interface IUpdRecodableComponent {
+export interface RecodableComponent {
     IsEncoded: boolean;
 }
-export interface IUpdMedKit {
+export interface MedKit {
     HpResource: number;
 }
-export interface IUpdSight {
+export interface Sight {
     ScopesCurrentCalibPointIndexes: number[];
     ScopesSelectedModes: number[];
     SelectedScope: number;
 }
-export interface IUpdFoldable {
+export interface Foldable {
     Folded: boolean;
 }
-export interface IUpdFireMode {
+export interface FireMode {
     FireMode: string;
 }
-export interface IUpdFoodDrink {
+export interface FoodDrink {
     HpPercent: number;
 }
-export interface IUpdKey {
+export interface Key {
     NumberOfUsages: number;
 }
-export interface IUpdResource {
+export interface Resource {
     Value: number;
     UnitsConsumed: number;
 }
-export interface IUpdLight {
+export interface Light {
     IsActive: boolean;
     SelectedMode: number;
 }
-export interface IUpdDogtag {
+export interface Dogtag {
     AccountId: string;
     ProfileId: string;
     Nickname: string;
@@ -120,12 +106,20 @@ export interface IUpdDogtag {
     KillerName: string;
     WeaponName: string;
 }
-export interface IUpdSideEffect {
+export interface Location {
+    x: number;
+    y: number;
+    r: string | number;
+    isSearched?: boolean;
+    /** SPT property? */
+    rotation?: string | boolean;
+}
+export interface SideEffect {
     Value: number;
 }
-export interface IUpdRepairKit {
+export interface RepairKit {
     Resource: number;
 }
-export interface IUpdCultistAmulet {
+export interface ICultistAmulet {
     NumberOfUsages: number;
 }

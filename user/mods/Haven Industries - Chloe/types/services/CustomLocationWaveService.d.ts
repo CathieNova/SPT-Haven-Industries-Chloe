@@ -1,4 +1,4 @@
-import { IBossLocationSpawn, IWave } from "@spt/models/eft/common/ILocationBase";
+import { BossLocationSpawn, Wave } from "@spt/models/eft/common/ILocationBase";
 import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt/servers/ConfigServer";
@@ -16,13 +16,13 @@ export declare class CustomLocationWaveService {
      * @param locationId e.g. factory4_day, bigmap
      * @param waveToAdd Boss wave to add to map
      */
-    addBossWaveToMap(locationId: string, waveToAdd: IBossLocationSpawn): void;
+    addBossWaveToMap(locationId: string, waveToAdd: BossLocationSpawn): void;
     /**
      * Add a normal bot wave to a map
      * @param locationId e.g. factory4_day, bigmap
      * @param waveToAdd Wave to add to map
      */
-    addNormalWaveToMap(locationId: string, waveToAdd: IWave): void;
+    addNormalWaveToMap(locationId: string, waveToAdd: Wave): void;
     /**
      * Clear all custom boss waves from a map
      * @param locationId e.g. factory4_day, bigmap

@@ -4,7 +4,7 @@
     "license": "MIT",
     "author": "CathieNova",
     "main": "src/mod.js",
-    "sptVersion": "3.10.*",
+    "sptVersion": "3.9.*",
 	"loadBefore": [],
 	"loadAfter": [],
     "isBundleMod": true,

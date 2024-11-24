@@ -1,16 +1,18 @@
 import { MinMax } from "@spt/models/common/MinMax";
-import { IBossLocationSpawn, IWave } from "@spt/models/eft/common/ILocationBase";
+import { BossLocationSpawn, Wave } from "@spt/models/eft/common/ILocationBase";
 import { IBaseConfig } from "@spt/models/spt/config/IBaseConfig";
 export interface ILocationConfig extends IBaseConfig {
     kind: "spt-location";
+    /** Waves with a min/max of the same value don't spawn any bots, bsg only spawn the difference between min and max */
+    fixEmptyBotWavesSettings: IFixEmptyBotWavesSettings;
     /** Rogues are classified as bosses and spawn immediatly, this can result in no scavs spawning, delay rogues spawning to allow scavs to spawn first */
     rogueLighthouseSpawnTimeSettings: IRogueLighthouseSpawnTimeSettings;
     /** When a map has hit max alive bots, any wave that should spawn will be reduced to 1 bot in size and placed in a spawn queue, this splits waves into smaller sizes to reduce the impact of this behaviour */
     splitWaveIntoSingleSpawnsSettings: ISplitWaveSettings;
-    looseLootMultiplier: ILootMultiplier;
-    staticLootMultiplier: ILootMultiplier;
+    looseLootMultiplier: LootMultiplier;
+    staticLootMultiplier: LootMultiplier;
     /** Custom bot waves to add to a locations base json on game start if addCustomBotWavesToMaps is true */
-    customWaves: ICustomWaves;
+    customWaves: CustomWaves;
     /** Open zones to add to map */
     openZones: Record<string, string[]>;
     /** Key = map id, value = item tpls that should only have one forced loot spawn position */
@@ -42,14 +44,8 @@ export interface ILocationConfig extends IBaseConfig {
     scavRaidTimeSettings: IScavRaidTimeSettings;
     /** Settings to adjust mods for lootable equipment in raid */
     equipmentLootSettings: IEquipmentLootSettings;
-    /** min percentage to set raider spawns at, -1 makes no changes */
-    reserveRaiderSpawnChanceOverrides: IReserveRaiderSpawnChanceOverrides;
-    /** Map ids players cannot visit */
-    nonMaps: string[];
-}
-export interface IReserveRaiderSpawnChanceOverrides {
-    nonTriggered: number;
-    triggered: number;
+    /** Sets the max Patrol Value of the Boxzone on the map Ground Zero */
+    sandboxMaxPatrolvalue: number;
 }
 export interface IEquipmentLootSettings {
     modSpawnChancePercent: Record<string, number>;
@@ -67,16 +63,16 @@ export interface ISplitWaveSettings {
     ignoreMaps: string[];
     waveSizeThreshold: number;
 }
-export interface ICustomWaves {
+export interface CustomWaves {
     /** Bosses spawn on raid start */
-    boss: Record<string, IBossLocationSpawn[]>;
-    normal: Record<string, IWave[]>;
+    boss: Record<string, BossLocationSpawn[]>;
+    normal: Record<string, Wave[]>;
 }
 export interface IBotTypeLimit extends MinMax {
     type: string;
 }
 /** Multiplier to apply to the loot count for a given map */
-export interface ILootMultiplier {
+export interface LootMultiplier {
     bigmap: number;
     develop: number;
     factory4_day: number;

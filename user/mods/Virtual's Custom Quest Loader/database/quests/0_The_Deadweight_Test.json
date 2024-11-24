@@ -83,7 +83,6 @@
     "rewards": {
       "Success": [
         {
-          "availableInGameEditions": [],
           "value": 9850,
           "id": "67348fd0bc19c47c9893f5b0",
           "type": "Experience",
@@ -91,7 +90,6 @@
           "index": 0
         },
         {
-          "availableInGameEditions": [],
           "value": 0.02,
           "id": "67348fd01cceeacf3dbfde03",
           "type": "TraderStanding",
@@ -100,7 +98,6 @@
           "index": 1
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "67348fd094f77fc82910f600",
           "index": 2,
@@ -119,7 +116,6 @@
           "value": "1"
         },
         {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "67348fd0d69a8629d732ef49",
           "index": 3,
@@ -138,7 +134,6 @@
           "value": "1"
         },
         {
-          "availableInGameEditions": [],
           "id": "67348fd005e7ea43c334cc37",
           "index": 4,
           "target": "Search",

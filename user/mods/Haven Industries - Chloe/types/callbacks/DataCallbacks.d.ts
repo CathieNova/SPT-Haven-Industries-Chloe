@@ -1,5 +1,5 @@
 import { HideoutController } from "@spt/controllers/HideoutController";
-import { TraderController } from "@spt/controllers/TraderController";
+import { RagfairController } from "@spt/controllers/RagfairController";
 import { TraderHelper } from "@spt/helpers/TraderHelper";
 import { IEmptyRequestData } from "@spt/models/eft/common/IEmptyRequestData";
 import { IGlobals } from "@spt/models/eft/common/IGlobals";
@@ -7,7 +7,7 @@ import { ICustomizationItem } from "@spt/models/eft/common/tables/ICustomization
 import { IHandbookBase } from "@spt/models/eft/common/tables/IHandbookBase";
 import { IGetItemPricesResponse } from "@spt/models/eft/game/IGetItemPricesResponse";
 import { IHideoutArea } from "@spt/models/eft/hideout/IHideoutArea";
-import { IHideoutProductionData } from "@spt/models/eft/hideout/IHideoutProduction";
+import { IHideoutProduction } from "@spt/models/eft/hideout/IHideoutProduction";
 import { IHideoutScavCase } from "@spt/models/eft/hideout/IHideoutScavCase";
 import { IHideoutSettingsBase } from "@spt/models/eft/hideout/IHideoutSettingsBase";
 import { IGetBodyResponseData } from "@spt/models/eft/httpResponse/IGetBodyResponseData";
@@ -23,9 +23,9 @@ export declare class DataCallbacks {
     protected timeUtil: TimeUtil;
     protected traderHelper: TraderHelper;
     protected databaseService: DatabaseService;
-    protected traderController: TraderController;
+    protected ragfairController: RagfairController;
     protected hideoutController: HideoutController;
-    constructor(httpResponse: HttpResponseUtil, timeUtil: TimeUtil, traderHelper: TraderHelper, databaseService: DatabaseService, traderController: TraderController, hideoutController: HideoutController);
+    constructor(httpResponse: HttpResponseUtil, timeUtil: TimeUtil, traderHelper: TraderHelper, databaseService: DatabaseService, ragfairController: RagfairController, hideoutController: HideoutController);
     /**
      * Handle client/settings
      * @returns ISettingsBase
@@ -62,7 +62,7 @@ export declare class DataCallbacks {
      */
     getHideoutSettings(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IHideoutSettingsBase>;
     getHideoutAreas(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IHideoutArea[]>;
-    getHideoutProduction(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IHideoutProductionData>;
+    gethideoutProduction(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IHideoutProduction[]>;
     getHideoutScavcase(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IHideoutScavCase[]>;
     /**
      * Handle client/languages
@@ -83,6 +83,7 @@ export declare class DataCallbacks {
     /**
      * Handle client/items/prices/
      * Called when viewing a traders assorts
+     * TODO -  fully implement this
      */
     getItemPrices(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IGetItemPricesResponse>;
 }

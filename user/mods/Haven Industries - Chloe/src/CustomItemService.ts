@@ -20,7 +20,7 @@ import { QuestModifier } from "./QuestModifier";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ILocation, ItemDistribution } from "@spt/models/eft/common/ILocation";
 import { IPreset } from "@spt/models/eft/common/IGlobals";
-import { ILooseLoot, ISpawnpointsForced } from "@spt/models/eft/common/ILooseLoot";
+import { ILooseLoot, SpawnpointsForced } from "@spt/models/eft/common/ILooseLoot";
 import { Ixyz } from "@spt/models/eft/common/Ixyz";
 import * as modConfig from "../config/mod_config.json";
 
@@ -310,7 +310,7 @@ export class CustomItemService {
                 if (locations.hasOwnProperty(locationIDs)) {
                     const location: ILocation = locations[locationIDs];
                     if (location) {
-                        const looseLocation:ISpawnpointsForced = {
+                        const looseLocation:SpawnpointsForced = {
                             locationId: locationIDs,
                             probability: 1,
                             template: {
@@ -371,7 +371,7 @@ export class CustomItemService {
                 }
 
                 itemConfig.StaticLooseLootLocations.forEach((container) => {
-                    const staticLooseLocations = container as ISpawnpointsForced;
+                    const staticLooseLocations = container as SpawnpointsForced;
                     this.addToStaticLooseLocation(
                         staticLooseLocations.locationId,
                         staticLooseLocations.template.Id,
@@ -416,7 +416,7 @@ export class CustomItemService {
             const locations = this.Instance.database.locations[mapLocation].looseLoot.spawnpointsForced;
             
             if (locations) {
-                const questLocation:ISpawnpointsForced = {
+                const questLocation:SpawnpointsForced = {
                     locationId: locationID,
                     probability: 1,
                     template: {
@@ -473,7 +473,7 @@ export class CustomItemService {
 
                 itemConfig.StaticQuestLootLocations.forEach((container) => {
                     const mapLocation = itemConfig.QuestMapLocation;
-                    const staticQuestLocation = container as ISpawnpointsForced;
+                    const staticQuestLocation = container as SpawnpointsForced;
                     this.addToStaticQuestLocation(
                         mapLocation,
                         staticQuestLocation.locationId,

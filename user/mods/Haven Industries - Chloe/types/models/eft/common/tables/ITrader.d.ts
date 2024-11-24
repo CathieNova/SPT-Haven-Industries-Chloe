@@ -1,4 +1,4 @@
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 import { DogtagExchangeSide } from "@spt/models/enums/DogtagExchangeSide";
 import { ITraderServiceModel } from "@spt/models/spt/services/ITraderServiceModel";
 export interface ITrader {
@@ -23,20 +23,16 @@ export interface ITraderBase {
     discount: number;
     discount_end: number;
     gridHeight: number;
-    sell_modifier_for_prohibited_items?: number;
-    insurance: ITraderInsurance;
+    insurance: Insurance;
     items_buy: IItemBuyData;
     items_buy_prohibited: IItemBuyData;
-    isCanTransferItems?: boolean;
-    transferableItems?: IItemBuyData;
-    prohibitedTransferableItems?: IItemBuyData;
     location: string;
-    loyaltyLevels: ITraderLoyaltyLevel[];
+    loyaltyLevels: LoyaltyLevel[];
     medic: boolean;
     name: string;
     nextResupply: number;
     nickname: string;
-    repair: ITraderRepair;
+    repair: Repair;
     sell_category: string[];
     surname: string;
     unlockedByDefault: boolean;
@@ -45,7 +41,7 @@ export interface IItemBuyData {
     category: string[];
     id_list: string[];
 }
-export interface ITraderInsurance {
+export interface Insurance {
     availability: boolean;
     excluded_category: string[];
     max_return_hour: number;
@@ -53,7 +49,7 @@ export interface ITraderInsurance {
     min_payment: number;
     min_return_hour: number;
 }
-export interface ITraderLoyaltyLevel {
+export interface LoyaltyLevel {
     buy_price_coef: number;
     exchange_price_coef: number;
     heal_price_coef: number;
@@ -63,18 +59,18 @@ export interface ITraderLoyaltyLevel {
     minStanding: number;
     repair_price_coef: number;
 }
-export interface ITraderRepair {
+export interface Repair {
     availability: boolean;
     currency: string;
     currency_coefficient: number;
     excluded_category: string[];
     /** Doesn't exist in client object */
-    excluded_id_list: string[];
+    excluded_id_list: any[];
     quality: number;
 }
 export interface ITraderAssort {
     nextResupply: number;
-    items: IItem[];
+    items: Item[];
     barter_scheme: Record<string, IBarterScheme[][]>;
     loyal_level_items: Record<string, number>;
 }
@@ -88,23 +84,18 @@ export interface IBarterScheme {
 }
 export interface ISuit {
     _id: string;
-    externalObtain: boolean;
-    internalObtain: boolean;
-    isHiddenInPVE: boolean;
     tid: string;
     suiteId: string;
     isActive: boolean;
     requirements: ISuitRequirements;
 }
 export interface ISuitRequirements {
-    achievementRequirements: string[];
     loyaltyLevel: number;
     profileLevel: number;
     standing: number;
     skillRequirements: string[];
     questRequirements: string[];
     itemRequirements: ItemRequirement[];
-    requiredTid: string;
 }
 export interface ItemRequirement {
     count: number;

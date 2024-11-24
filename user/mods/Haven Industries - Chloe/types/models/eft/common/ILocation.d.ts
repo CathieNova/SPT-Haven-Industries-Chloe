@@ -1,7 +1,7 @@
-import { IExit, ILocationBase } from "@spt/models/eft/common/ILocationBase";
-import { IGroupPostion, ILooseLoot } from "@spt/models/eft/common/ILooseLoot";
+import { Exit, ILocationBase } from "@spt/models/eft/common/ILocationBase";
+import { ILooseLoot } from "@spt/models/eft/common/ILooseLoot";
 import { Ixyz } from "@spt/models/eft/common/Ixyz";
-import { IItem } from "@spt/models/eft/common/tables/IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
 export interface ILocation {
     /** Map meta-data */
     base: ILocationBase;
@@ -15,7 +15,7 @@ export interface ILocation {
     /** All possible static containers on map + their assign groupings */
     statics: IStaticContainer;
     /** All possible map extracts */
-    allExtracts: IExit[];
+    allExtracts: Exit[];
 }
 export interface IStaticContainer {
     containersGroups: Record<string, IContainerMinMax>;
@@ -51,12 +51,12 @@ export interface IStaticPropsBase {
     Rotation: Ixyz;
     IsGroupPosition: boolean;
     IsAlwaysSpawn: boolean;
-    GroupPositions: IGroupPostion[];
+    GroupPositions: any[];
     Root: string;
-    Items: IItem[];
+    Items: any[];
 }
 export interface IStaticWeaponProps extends IStaticPropsBase {
-    Items: IItem[];
+    Items: Item[];
 }
 export interface IStaticContainerDetails {
     staticWeapons: IStaticWeaponProps[];
@@ -76,9 +76,9 @@ export interface IStaticForcedProps {
     itemTpl: string;
 }
 export interface IStaticContainerProps extends IStaticPropsBase {
-    Items: IStaticItem[];
+    Items: StaticItem[];
 }
-export interface IStaticItem {
+export interface StaticItem {
     _id: string;
     _tpl: string;
 }

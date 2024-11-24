@@ -4,9 +4,9 @@ export interface IProcessSellTradeRequestData extends IProcessBaseTradeRequestDa
     type: string;
     tid: string;
     price: number;
-    items: ISoldItem[];
+    items: Item[];
 }
-export interface ISoldItem {
+export interface Item {
     id: string;
     count: number;
     scheme_id: number;
