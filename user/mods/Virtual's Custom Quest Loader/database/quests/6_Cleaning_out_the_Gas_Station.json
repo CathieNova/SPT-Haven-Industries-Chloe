@@ -5,7 +5,7 @@
     "traderId": "673ace38260ffaa1bd63046f",
     "type": "Elimination",
     "location": "56f40101d2720b2a4d8b45d6",
-    "image": "/files/quest/icon/Chloe_8.png",
+    "image": "/files/quest/icon/Chloe_7.png",
     "instantComplete": false,
     "isKey": false,
     "secretQuest": false,
@@ -80,7 +80,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 1,
+          "value": 10,
           "visibilityConditions": []
         }
       ],

@@ -1,0 +1,243 @@
+{
+  "673fceae9af65bc6ceac7366": {
+    "QuestName": "The Mole's Colleague",
+    "_id": "673fceae9af65bc6ceac7366",
+    "traderId": "673ace38260ffaa1bd63046f",
+    "type": "Multi",
+    "location": "5b0fc42d86f7744a585f9105",
+    "image": "/files/quest/icon/Chloe_9.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "673fceae9af65bc6ceac7366 description",
+    "startedMessageText": "673fceae9af65bc6ceac7366 startedMessageText",
+    "successMessageText": "673fceae9af65bc6ceac7366 successMessageText",
+    "failMessageText": "673fceae9af65bc6ceac7366 failMessageText",
+    "acceptPlayerMessage": "673fceae9af65bc6ceac7366 acceptPlayerMessage",
+    "declinePlayerMessage": "673fceae9af65bc6ceac7366 declinePlayerMessage",
+    "completePlayerMessage": "673fceae9af65bc6ceac7366 completePlayerMessage",
+    "changeQuestMessageText": "673fceae9af65bc6ceac7366 changeQuestMessageText",
+    "name": "673fceae9af65bc6ceac7366 name",
+    "note": "673fceae9af65bc6ceac7366 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673fcbaf7c3f822266365b4e",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "673fc89260fc5c017bef9b2c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673fcbb4402e8d4d231eb862",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "673fc89260fc5c017bef9b2c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673fceae0c4368e944984f1b",
+          "index": 0,
+          "parentId": "",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673fceaec02b9bbbd54449bf",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67349422cd684d52d835871a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "673fceaee256540f43c24834",
+                "target": [
+                  "laboratory"
+                ]
+              },
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "673fceae80e21662ebc95499",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction",
+                  "Runner"
+                ]
+              }
+            ],
+            "id": "673fceaebd72ac266bae789f"
+          },
+          "doNotResetIfCounterCompleted": true,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673fceaef2ac5890720f31eb",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "673fceaecd2ba99bc2f2f3f8",
+          "index": 0,
+          "items": [
+            {
+              "_id": "673fceae73d923509d487e2b",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "673fceae73d923509d487e2b",
+          "type": "Item",
+          "value": "1"
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "673fceae6ca1ad57fa4c8790",
+          "index": 0,
+          "type": "Experience",
+          "value": "13450",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "673fceae0387d29c193b54eb",
+          "index": 1,
+          "target": "673ace38260ffaa1bd63046f",
+          "type": "TraderStanding",
+          "value": "0.05",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "673fceaeb83f63e7defde8ad",
+          "index": 2,
+          "items": [
+            {
+              "_id": "673fceaef466a5e64463b596",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 25000
+              }
+            }
+          ],
+          "target": "673fceaef466a5e64463b596",
+          "type": "Item",
+          "value": "25000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "673fceae820d2cfb00a424a8",
+          "index": 3,
+          "items": [
+            {
+              "_id": "673fceae5f0f24d1a808ddc5",
+              "_tpl": "6724378d8fa92a4f67a81ef9",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "673fceae5f0f24d1a808ddc5",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "673fceae0782fadeaf0d1f11",
+          "index": 4,
+          "items": [
+            {
+              "_id": "673fceae5ca20fafac82b89c",
+              "_tpl": "67245578752f831970a68547",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "673fceae5ca20fafac82b89c",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "673fceaebde6b600b1b67aab",
+          "index": 5,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": true,
+          "value": "100"
+        }
+      ]
+    }
+  }
+}

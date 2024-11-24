@@ -1,0 +1,87 @@
+{
+    "673fc89260fc5c017bef9b2c": {
+        "itemTplToClone": "6575a6ca8778e96ded05a802",
+        "parentId": "57864a66245977548f04a81f",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "COMMENT_TEXT": "This can override properties from the _props variable from the items itemTplToClone",
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "haven-quests/hdd_quest_wp.bundle",
+                "rcid": ""
+            },
+            "Foldable": false,
+            "Weight": 0.25,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "RarityPvE": "Rare",
+            "BackgroundColor": "blue",
+            "QuestItem": true,
+            "QuestStashMaxCount": 0
+        },
+        "locales": {
+            "en": {
+                "name": "Encrypted Hard-Drive",
+                "shortName": "Encrypted Hard-Drive",
+                "description": "A random access storage device (information storage device), based on the magnetic recording principle. Contains various compromising data on TerraGroup that is Encrypted."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0,
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
+        "loyallevelitems": 1,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [],
+        "addQuestItemLocation": true,
+        "QuestMapLocation": "laboratory",
+        "StaticQuestLootLocations": [
+            {
+                "locationId": "(-183.725, 1.615, -329.8)",
+                "probability": 1,
+                "template": {
+                    "Id": "673fc8bf6c36f1772af960fc",
+                    "isContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -183.725,
+                        "y": 1.615,
+                        "z": -329.8
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 90,
+                        "z": 90
+                    },
+                    "IsGroupPosition": false,
+                    "IsGroupPositions": [], 
+                    "IsAlwaysSpawn": false,
+                    "Root": "673fc89833c269da3ab13a42",
+                    "Items": [
+                        {
+                            "_id": "673fc89833c269da3ab13a42",
+                            "_tpl": "673fc89260fc5c017bef9b2c",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "addLooseItemLocations": false,
+        "LooseLootMapLocations": [],
+        "StaticLooseLootLocations": []
+    }
+}
