@@ -120,11 +120,18 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
             questassort: {
                 started: {},
                 success: {
+                    // Ammo bouta loose it - Part 1
                     "67369e25703137899bde3516": "6736a0c281826fba6328d450",
                     "67369e2c3752f9d498bc6d47": "6736a0c281826fba6328d450",
                     "67369e2e1439af1a07ada9e4": "6736a0c281826fba6328d450",
                     "67369e2f0358c16459ae7144": "6736a0c281826fba6328d450",
-                    "67369e31402dd3f343248790": "6736a0c281826fba6328d450"
+                    "67369e31402dd3f343248790": "6736a0c281826fba6328d450",
+                    // Ammo bouta loose it - Part 2
+                    "6737c949570dfde9b4a78826": "6737d4a368e31f47b40ba27e",
+                    "6737cbea2bc75941f0c42cd9": "6737d4a368e31f47b40ba27e",
+                    "6737ce5c04549e407ef6d695": "6737d4a368e31f47b40ba27e",
+                    "6737d001eba96afade1c9a26": "6737d4a368e31f47b40ba27e",
+                    "6737d0459fac8271d9987f76": "6737d4a368e31f47b40ba27e"
                 },
                 fail: {}
             }

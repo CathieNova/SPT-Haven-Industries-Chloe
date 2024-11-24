@@ -136,6 +136,7 @@
       "Fail": [],
       "Started": [
         {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "id": "673fceaecd2ba99bc2f2f3f8",
           "index": 0,
