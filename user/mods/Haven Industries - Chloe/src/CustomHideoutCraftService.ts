@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/naming-convention */
+import { DependencyContainer } from "tsyringe";
 import { WTTInstanceManager } from "./WTTInstanceManager";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import * as fs from "fs";
 import * as path from "path";
@@ -13,9 +16,11 @@ export class CustomHideoutCraftService {
         this.Instance = Instance;
     }
 
-    public postDBLoad(): void {
+    public postDBLoad(container: DependencyContainer): void {
+        const logger = container.resolve<ILogger>("WinstonLogger");
         const db = this.Instance.database;
         const hideoutProduction = db.hideout.production.recipes;
+        var count = 0;
 
         const hideoutCraftsDir = path.resolve(__dirname, "../db/hideoutCrafts");
 
@@ -40,5 +45,7 @@ export class CustomHideoutCraftService {
                 hideoutProduction.push(craft);
             }
         }
+        
+        logger.log(`[Haven Industries - Chloe] Added ${count} custom Hideout Crafts.`, "magenta");
     }
 }

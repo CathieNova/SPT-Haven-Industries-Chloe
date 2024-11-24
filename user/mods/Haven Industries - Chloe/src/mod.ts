@@ -90,7 +90,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
 
         this.addTraderToLocales(tables, baseJson.name, "Chloe", baseJson.nickname, baseJson.location, "The well loved Receptionist at the Cultist Hideout, Chloe is always ruthless in her pursuit of the best deals as she deals with anyone regardless.");
         this.ragfairConfig.traders[baseJson._id] = true;
-        this.customHideoutCraftService.postDBLoad();
+        this.customHideoutCraftService.postDBLoad(container);
         this.customProfileEdition.postDBLoad(container);
         
         this.adjustItemProperties(tables.templates.items);
