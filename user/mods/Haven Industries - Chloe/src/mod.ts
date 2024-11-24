@@ -21,6 +21,7 @@ import { IRagfairConfig } from "@spt/models/spt/config/IRagfairConfig";
 import type { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
 import { BaseClasses } from "@spt/models/enums/BaseClasses";
 import { CustomHideoutCraftService } from "./CustomHideoutCraftService";
+import type { ItemHelper } from "@spt/helpers/ItemHelper";
 
 import { WTTInstanceManager } from "./WTTInstanceManager";
 import { CustomItemService } from "./CustomItemService";
@@ -44,6 +45,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
     private customItemService: CustomItemService = new CustomItemService();
     private customHideoutCraftService: CustomHideoutCraftService = new CustomHideoutCraftService();
     private customProfileEdition: CustomProfileEdition = new CustomProfileEdition();
+    private itemHelper: ItemHelper;
     private version: string;
     private modName = "Haven Industries - Chloe";
     private config;
@@ -58,6 +60,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         const imageRouter: ImageRouter = container.resolve<ImageRouter>("ImageRouter");
         const configServer = container.resolve<ConfigServer>("ConfigServer");
         const traderConfig: ITraderConfig = configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
+        this.itemHelper = container.resolve<ItemHelper>("ItemHelper");
         
         this.getVersionFromJson();
         this.displayCreditBanner();
@@ -79,6 +82,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         const databaseServer: DatabaseServer = container.resolve<DatabaseServer>("DatabaseServer");
         const jsonUtil: JsonUtil = container.resolve<JsonUtil>("JsonUtil");
         const tables = databaseServer.getTables();
+        const restrInRaid = tables.globals.config.RestrictionsInRaid;
 
         this.addTraderToDb(baseJson, tables, jsonUtil);
         this.customItemService.postDBLoad();
@@ -88,6 +92,9 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.ragfairConfig.traders[baseJson._id] = true;
         this.customHideoutCraftService.postDBLoad();
         this.customProfileEdition.postDBLoad(container);
+        
+        this.adjustItemProperties(tables.templates.items);
+        this.setLabsCardInRaidLimit(restrInRaid, 9)
     }
 
     private registerProfileImage(PreSptModLoader: PreSptModLoader, imageRouter: ImageRouter): void
@@ -134,6 +141,70 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
             locale[`${baseJson._id} Nickname`] = nickName;
             locale[`${baseJson._id} Location`] = location;
             locale[`${baseJson._id} Description`] = description;
+        }
+    }
+
+    // biome-ignore lint/suspicious/noExplicitAny: <explanation>
+    setLabsCardInRaidLimit(restrInRaid:any, limitAmount:number):void{
+        if (restrInRaid === undefined) return
+
+        //restrInRaid type set to any to shut the linter up because the type doesn't include MaxIn... props
+        //set labs access card limit in raid to 9 so the keycard case can be filled while on pmc
+        for (const restr in restrInRaid){
+            const thisRestriction = restrInRaid[restr]
+            if (thisRestriction.TemplateId === "5c94bbff86f7747ee735c08f"){
+                thisRestriction.MaxInLobby = limitAmount;
+                thisRestriction.MaxInRaid = limitAmount;
+            }
+        }
+    }
+
+    adjustItemProperties(dbItems: Record<string, ITemplateItem>){
+        for (const [_, item] of Object.entries(dbItems)){
+            // Skip anything that isn't specifically an Item type item
+            if (item._type !== "Item")
+            {
+                continue;
+            }
+
+            const itemProps = item._props
+
+            // Adjust key specific properties
+            if (this.itemHelper.isOfBaseclass(item._id, BaseClasses.KEY)){
+
+                if (modConfig.weightless_keys){
+                    itemProps.Weight = 0.0;
+                }
+
+                itemProps.InsuranceDisabled = !modConfig.key_insurance_enabled;
+
+                // If keys are to be set to no limit, and we're either not using the finite keys list, or this key doesn't exist
+                // in it, set the key max usage to 0 (infinite)
+                if (modConfig.no_key_use_limit && 
+                    (!modConfig.use_finite_keys_list || !modConfig.finite_keys_list.includes(item._id)))
+                {
+                    itemProps.MaximumNumberOfUsage = 0;
+                }
+                
+                if (modConfig.keys_are_discardable){
+                    itemProps.DiscardLimit = -1
+                }
+            }
+
+            // Remove keys from secure container exclude filter
+            if (modConfig.all_keys_in_secure && this.itemHelper.isOfBaseclass(item._id, BaseClasses.MOB_CONTAINER) && itemProps?.Grids) {
+                // Theta container has multiple grids, so we need to loop through all grids
+                for (const grid of itemProps.Grids) {
+                    const filter = grid?._props?.filters[0];
+                    if (filter)
+                    {
+                        // Exclude items with a base class of KEY. Have to check that it's an "Item" type first because isOfBaseClass only accepts Items
+                        filter.ExcludedFilter = filter.ExcludedFilter.filter(
+                            itemTpl => this.itemHelper.getItem(itemTpl)[1]?._type !== "Item" || !this.itemHelper.isOfBaseclass(itemTpl, BaseClasses.KEY)
+                        );
+                    }
+                }
+            }
         }
     }
 

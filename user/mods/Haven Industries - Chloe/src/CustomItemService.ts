@@ -22,6 +22,7 @@ import { ILocation, ItemDistribution } from "@spt/models/eft/common/ILocation";
 import { IPreset } from "@spt/models/eft/common/IGlobals";
 import { ILooseLoot, ISpawnpointsForced } from "@spt/models/eft/common/ILooseLoot";
 import { Ixyz } from "@spt/models/eft/common/Ixyz";
+import * as modConfig from "../config/mod_config.json";
 
 export class CustomItemService {
     private configs: ConfigItem;
@@ -66,7 +67,6 @@ export class CustomItemService {
             numItemsAdded++;
         }
 
-
         if (numItemsAdded > 0) {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: Loaded ${numItemsAdded} custom items.`,
@@ -80,7 +80,6 @@ export class CustomItemService {
             );
         }
 
-
         for (const itemId in this.configs) {
             const itemConfig = this.configs[itemId];
 
@@ -89,7 +88,6 @@ export class CustomItemService {
         }
 
         this.questModifier.modifyQuests(this.Instance.database, this.Instance.jsonUtil, this.Instance.debug);
-
     }
 
 
@@ -453,7 +451,7 @@ export class CustomItemService {
                 }
 
                 locations.push(questLocation);
-                if (this.Instance.debug) {
+                if (modConfig.debug) {
                     console.log(`Added item to static quest location '${locationID}'`);
                 }
             }
@@ -465,11 +463,11 @@ export class CustomItemService {
          */
     private processStaticQuestItems(itemConfig: any, itemId: string): void {
         if (itemConfig.addQuestItemLocation) {
-            if (this.Instance.debug) {
+            if (modConfig.debug) {
                 console.log("Processing Quest Item to Static Loot Location for: ", itemId, " with QuestMapLocation: ", itemConfig.QuestMapLocation);
             }
             if (Array.isArray(itemConfig.StaticQuestLootLocations)){
-                if (this.Instance.debug) {
+                if (modConfig.debug) {
                     console.log("Processing Quest Item to Multiple Static Loot Locations:");
                 }
 
@@ -487,7 +485,7 @@ export class CustomItemService {
                         staticQuestLocation.template.Items[0]._id,
                         staticQuestLocation.template.Items[0]._tpl
                     );
-                    if (this.Instance.debug) {
+                    if (modConfig.debug) {
                         console.log(` - Added to location '${staticQuestLocation.locationId}'`);
                     }
                 });
@@ -1135,16 +1133,14 @@ export class CustomItemService {
    *
    * @return {any} The combined configuration object.
    */
-    private loadCombinedConfig(): any 
-    {
+    private loadCombinedConfig(): any {
         const configFiles = fs
             .readdirSync(path.join(__dirname, "../db/Items"))
             .filter((file) => !file.includes("BaseItemReplacement"));
 
         const combinedConfig: any = {};
 
-        configFiles.forEach((file) => 
-        {
+        configFiles.forEach((file) => {
             const configPath = path.join(__dirname, "../db/Items", file);
             const configFileContents = fs.readFileSync(configPath, "utf-8");
             const config = JSON.parse(configFileContents) as ConfigItem;
