@@ -18,7 +18,6 @@
     "declinePlayerMessage": "67348fd0ed193d32d436e8a9 declinePlayerMessage",
     "completePlayerMessage": "67348fd0ed193d32d436e8a9 completePlayerMessage",
     "changeQuestMessageText": "67348fd0ed193d32d436e8a9 changeQuestMessageText",
-    "name": "67348fd0ed193d32d436e8a9 name",
     "conditions": {
       "AvailableForStart": [],
       "AvailableForFinish": [
@@ -57,7 +56,7 @@
           "dynamicLocale": false,
           "target": [
             "59faf98186f774067b6be103",
-            "59faf98186f774067b6be103",
+            "62a09ee4cf4a99369e262453",
             "5bc9b9ecd4351e3bac122519",
             "60b0f561c4449e4cb624c1d7",
             "5d4041f086f7743cac3f22a7",
