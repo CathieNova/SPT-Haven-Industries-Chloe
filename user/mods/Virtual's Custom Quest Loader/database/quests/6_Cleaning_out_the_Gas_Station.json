@@ -18,6 +18,7 @@
     "declinePlayerMessage": "67374c9d34df21f908dc6e3d declinePlayerMessage",
     "completePlayerMessage": "67374c9d34df21f908dc6e3d completePlayerMessage",
     "changeQuestMessageText": "67374c9d34df21f908dc6e3d changeQuestMessageText",
+    "name": "67374c9d34df21f908dc6e3d name",
     "conditions": {
       "AvailableForStart": [
         {
