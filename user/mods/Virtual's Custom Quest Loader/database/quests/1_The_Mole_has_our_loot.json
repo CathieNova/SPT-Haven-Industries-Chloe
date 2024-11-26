@@ -18,18 +18,17 @@
     "declinePlayerMessage": "6734916945defbd81ec2f677 declinePlayerMessage",
     "completePlayerMessage": "6734916945defbd81ec2f677 completePlayerMessage",
     "changeQuestMessageText": "6734916945defbd81ec2f677 changeQuestMessageText",
-    "name": "6734916945defbd81ec2f677 name",
     "conditions": {
       "AvailableForStart": [],
       "AvailableForFinish": [
         {
-          "conditionType": "PlaceBeacon",
+          "conditionType": "LeaveItemAtLocation",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
           "id": "673490981288038854a45c98",
           "index": 0,
           "parentId": "",
-          "plantTime": 30,
+          "plantTime": 15,
           "target": [
             "5991b51486f77447b112d44f"
           ],
