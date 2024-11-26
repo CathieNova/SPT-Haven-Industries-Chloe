@@ -63,7 +63,7 @@
         "price_rate": 1
     },
     "insurance": {
-        "availability": true,
+        "availability": false,
         "min_payment": 0,
         "min_return_hour": 1,
         "max_return_hour": 2,
