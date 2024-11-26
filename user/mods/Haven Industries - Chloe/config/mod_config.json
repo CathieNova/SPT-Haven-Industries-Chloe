@@ -5,6 +5,7 @@
     "enableUnheardProfile": true,
     "enableDeveloperProfile": true,
 
+    "enableSecureCase": true,
     "key_insurance_enabled": false,
     "weightless_keys": true,
     "no_key_use_limit": true,

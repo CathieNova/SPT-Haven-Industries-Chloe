@@ -239,13 +239,15 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
     }
 
     allowIntoCaseByParent(customItemID, include, currentItem, caseParent): void {
-        if (include === "include"){
-            if (currentItem._parent === caseParent && currentItem._id !== "5c0a794586f77461c458f892"){
-                for (const grid of currentItem._props.Grids) {
-                    if (grid._props.filters[0].Filter === undefined){
-                        grid._props.filters[0].Filter = [customItemID];
-                    } else {
-                        grid._props.filters[0].Filter.push(customItemID)
+        if (modConfig.enableSecureCase) {
+            if (include === "include"){
+                if (currentItem._parent === caseParent && currentItem._id !== "5c0a794586f77461c458f892"){
+                    for (const grid of currentItem._props.Grids) {
+                        if (grid._props.filters[0].Filter === undefined){
+                            grid._props.filters[0].Filter = [customItemID];
+                        } else {
+                            grid._props.filters[0].Filter.push(customItemID)
+                        }
                     }
                 }
             }
