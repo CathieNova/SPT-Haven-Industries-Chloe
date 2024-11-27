@@ -1405,20 +1405,10 @@
         "ModdableItemBlacklist": [],
         "fleaPriceRoubles": 14934,
         "handbookPriceRoubles": 9956,
-        "addtoTraders": true,
-        "traderId": "673ace38260ffaa1bd63046f",
-        "traderItems": [
-            {
-                "unlimitedCount": true,
-                "stackObjectsCount": 0
-            }
-        ],
-        "barterScheme": [
-            {
-                "count": 150000,
-                "_tpl": "ROUBLES"
-            }
-        ],
+        "addtoTraders": false,
+        "traderId": "",
+        "traderItems": [],
+        "barterScheme": [],
         "loyallevelitems": 1,
         "addtoBots": false,
         "addtoStaticLootContainers": true,
