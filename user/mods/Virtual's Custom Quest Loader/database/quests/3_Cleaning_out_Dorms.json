@@ -40,7 +40,7 @@
                 "conditionType": "InZone",
                 "dynamicLocale": false,
                 "id": "6734addac828270b686b22bb",
-                "zoneIds": [
+                "zoneId": [
                   "Cleaning_Out_Dorms"
                 ]
               },
@@ -64,7 +64,7 @@
                 "resetOnSessionEnd": false,
                 "savageRole": [],
                 "target": "Any",
-                "value": 0,
+                "value": 1,
                 "weapon": [],
                 "weaponCaliber": [],
                 "weaponModsExclusive": [],
