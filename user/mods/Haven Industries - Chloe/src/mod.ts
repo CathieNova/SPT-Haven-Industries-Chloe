@@ -63,7 +63,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.itemHelper = container.resolve<ItemHelper>("ItemHelper");
         
         this.getVersionFromJson();
-        this.displayCreditBanner();
+        //this.displayCreditBanner();
 
         this.registerProfileImage(PreSptModLoader, imageRouter);
         Traders[baseJson._id] = baseJson._id
@@ -94,7 +94,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.customProfileEdition.postDBLoad(container);
         
         this.adjustItemProperties(tables.templates.items);
-        this.setLabsCardInRaidLimit(restrInRaid, 9)
+        this.setLabsCardInRaidLimit(restrInRaid, 9);
     }
 
     private registerProfileImage(PreSptModLoader: PreSptModLoader, imageRouter: ImageRouter): void
@@ -239,7 +239,7 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
     }
 
     allowIntoCaseByParent(customItemID, include, currentItem, caseParent): void {
-        if (modConfig.enableSecureCase) {
+        if (modConfig.enableSecureCase){
             if (include === "include"){
                 if (currentItem._parent === caseParent && currentItem._id !== "5c0a794586f77461c458f892"){
                     for (const grid of currentItem._props.Grids) {
@@ -297,7 +297,6 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
 
     private displayCreditBanner(): void 
     {
-        this.colorLog(`[${this.modName}] ██████████████████████████████████████████████████████████████████████`, "brightGreen");
         this.colorLog(`[${this.modName}]           _______           _______  _       `, "brightMagenta");
         this.colorLog(`[${this.modName}] |\\     /|(  ___  )|\\     /|(  ____ \\( (    /|`, "brightMagenta");
         this.colorLog(`[${this.modName}] | )   ( || (   ) || )   ( || (    \\/|  \\  ( |`, "brightMagenta");
@@ -307,10 +306,6 @@ class SampleTrader implements IPreSptLoadMod, IPostDBLoadMod {
         this.colorLog(`[${this.modName}] | )   ( || )   ( |  \\   /  | (____/\\| )  \\  |`, "brightMagenta");
         this.colorLog(`[${this.modName}] |/     \\||/     \\|   \\_/   (_______/|/    \\_)`, "brightMagenta");
         this.colorLog(`[${this.modName}]                                             `, "brightMagenta");
-        this.colorLog(`[${this.modName}]   ------------------------------------------------------------------------`, "brightGreen");
-        this.colorLog(`[${this.modName}]                   Alpha Development Build!         `, "brightYellow");
-        this.colorLog(`[${this.modName}]   ------------------------------------------------------------------------`, "brightGreen");
-        this.colorLog(`[${this.modName}] ██████████████████████████████████████████████████████████████████████`, "brightGreen");
     }
 }
 module.exports = { mod: new SampleTrader() }

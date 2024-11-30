@@ -1,9 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { DependencyContainer } from "tsyringe";
-import { WTTInstanceManager } from "./WTTInstanceManager";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt/servers/DatabaseServer";
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import { WTTInstanceManager } from "./WTTInstanceManager";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -43,6 +41,7 @@ export class CustomHideoutCraftService {
                 if (!craft || hideoutProduction.some((p) => p._id === craft._id)) continue;
 
                 hideoutProduction.push(craft);
+                count++;
             }
         }
         

@@ -411,6 +411,7 @@ export class CustomItemService {
      * @param _id - The ID of the item.
      * @param _tpl - The template of the item.
      */
+    // Credits: CathieNova
     private addToStaticQuestLocation(mapLocation: string, locationID: string, Id: string, randomRotation: boolean, position: Ixyz, 
         rotation: Ixyz, root: string, _id: string, _tpl: string): void {
             const locations = this.Instance.database.locations[mapLocation].looseLoot.spawnpointsForced;
@@ -461,6 +462,7 @@ export class CustomItemService {
          * @param itemConfig - The configuration object for the item.
          * @param itemId - The ID of the item.
          */
+    // Credits: CathieNova
     private processStaticQuestItems(itemConfig: any, itemId: string): void {
         if (itemConfig.addQuestItemLocation) {
             if (modConfig.debug) {
